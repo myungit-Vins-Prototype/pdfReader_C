@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o"
   "CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o"
   "CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.o"

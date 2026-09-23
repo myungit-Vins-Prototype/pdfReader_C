@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgekernel.dir/fk_extrude.cpp.o.d"
   "CMakeFiles/forgekernel.dir/fk_intersect.cpp.o"
   "CMakeFiles/forgekernel.dir/fk_intersect.cpp.o.d"
+  "CMakeFiles/forgekernel.dir/fk_marching.cpp.o"
+  "CMakeFiles/forgekernel.dir/fk_marching.cpp.o.d"
   "CMakeFiles/forgekernel.dir/fk_mass.cpp.o"
   "CMakeFiles/forgekernel.dir/fk_mass.cpp.o.d"
   "CMakeFiles/forgekernel.dir/fk_math.cpp.o"

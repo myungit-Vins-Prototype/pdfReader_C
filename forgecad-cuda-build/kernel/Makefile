@@ -442,6 +442,30 @@ fk_intersect.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_intersect.cpp.s
 .PHONY : fk_intersect.cpp.s
 
+fk_marching.o: fk_marching.cpp.o
+.PHONY : fk_marching.o
+
+# target to build an object file
+fk_marching.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.o
+.PHONY : fk_marching.cpp.o
+
+fk_marching.i: fk_marching.cpp.i
+.PHONY : fk_marching.i
+
+# target to preprocess a source file
+fk_marching.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.i
+.PHONY : fk_marching.cpp.i
+
+fk_marching.s: fk_marching.cpp.s
+.PHONY : fk_marching.s
+
+# target to generate assembly for a file
+fk_marching.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.s
+.PHONY : fk_marching.cpp.s
+
 fk_mass.o: fk_mass.cpp.o
 .PHONY : fk_mass.o
 
@@ -874,6 +898,30 @@ tests/test_intersect.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.s
 .PHONY : tests/test_intersect.cpp.s
 
+tests/test_marching.o: tests/test_marching.cpp.o
+.PHONY : tests/test_marching.o
+
+# target to build an object file
+tests/test_marching.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o
+.PHONY : tests/test_marching.cpp.o
+
+tests/test_marching.i: tests/test_marching.cpp.i
+.PHONY : tests/test_marching.i
+
+# target to preprocess a source file
+tests/test_marching.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.i
+.PHONY : tests/test_marching.cpp.i
+
+tests/test_marching.s: tests/test_marching.cpp.s
+.PHONY : tests/test_marching.s
+
+# target to generate assembly for a file
+tests/test_marching.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.s
+.PHONY : tests/test_marching.cpp.s
+
 tests/test_mass.o: tests/test_mass.cpp.o
 .PHONY : tests/test_mass.o
 
@@ -1113,6 +1161,9 @@ help:
 	@echo "... fk_intersect.o"
 	@echo "... fk_intersect.i"
 	@echo "... fk_intersect.s"
+	@echo "... fk_marching.o"
+	@echo "... fk_marching.i"
+	@echo "... fk_marching.s"
 	@echo "... fk_mass.o"
 	@echo "... fk_mass.i"
 	@echo "... fk_mass.s"
@@ -1167,6 +1218,9 @@ help:
 	@echo "... tests/test_intersect.o"
 	@echo "... tests/test_intersect.i"
 	@echo "... tests/test_intersect.s"
+	@echo "... tests/test_marching.o"
+	@echo "... tests/test_marching.i"
+	@echo "... tests/test_marching.s"
 	@echo "... tests/test_mass.o"
 	@echo "... tests/test_mass.i"
 	@echo "... tests/test_mass.s"

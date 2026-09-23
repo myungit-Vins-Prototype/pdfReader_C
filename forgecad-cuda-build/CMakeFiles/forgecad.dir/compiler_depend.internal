@@ -2010,6 +2010,7 @@ CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o
  /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.h
  /home/myungit/Documenti/pdfReader_C/cad_types.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h

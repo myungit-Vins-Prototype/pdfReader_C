@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_curves.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curves.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curves.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_extrude.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_intersect.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o.d"
+  "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_marching.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_mass.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_math.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_pcurve.cpp" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_pcurve.cpp.o" "gcc" "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_pcurve.cpp.o.d"

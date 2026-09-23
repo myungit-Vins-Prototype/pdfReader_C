@@ -54,6 +54,16 @@ kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o: \
  /usr/include/c++/16/bits/uses_allocator_args.h /usr/include/c++/16/tuple \
  /usr/include/c++/16/bits/invoke.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
+ /usr/include/c++/16/functional /usr/include/c++/16/bits/refwrap.h \
+ /usr/include/c++/16/bits/std_function.h /usr/include/c++/16/typeinfo \
+ /usr/include/c++/16/bits/functexcept.h /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/array \
+ /usr/include/c++/16/compare \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /usr/include/c++/16/memory /usr/include/c++/16/bits/stl_tempbuf.h \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
@@ -69,10 +79,8 @@ kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o: \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h \
- /usr/include/c++/16/bits/shared_ptr_base.h /usr/include/c++/16/typeinfo \
+ /usr/include/c++/16/bits/shared_ptr_base.h \
  /usr/include/c++/16/bits/allocated_ptr.h \
- /usr/include/c++/16/bits/refwrap.h \
- /usr/include/c++/16/ext/aligned_buffer.h \
  /usr/include/c++/16/ext/atomicity.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h \

@@ -2006,6 +2006,7 @@ CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o: /home/myungit/Documenti/pdfReader_
   /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.h \
   /home/myungit/Documenti/pdfReader_C/cad_types.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
@@ -4854,6 +4855,8 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtGui/qpixmap.h:
 
+/usr/include/qt6/QtGui/qpixelformat.h:
+
 /usr/include/qt6/QtCore/qsysinfo.h:
 
 /usr/include/qt6/QtCore/qstringview.h:
@@ -5961,6 +5964,8 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/c++/16/bits/parse_numbers.h:
 
 /usr/include/c++/16/bits/postypes.h:
+
+/home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h:
 
 /usr/include/bits/stdint-least.h:
 
@@ -7171,5 +7176,3 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/qt6/QtGui/qinputmethod.h:
 
 /usr/include/qt6/QtGui/qpaintdevice.h:
-
-/usr/include/qt6/QtGui/qpixelformat.h:
