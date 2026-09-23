@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/forgecad_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/forgecad_autogen.dir/ParseCache.txt"
+  "forgecad_autogen"
+  "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_history.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_history.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_kernel.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_kernel.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_snap.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_snap.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cuda_support.cu.o"
+  "CMakeFiles/forgecad.dir/cuda_support.cu.o.d"
+  "CMakeFiles/forgecad.dir/forgeCad2026.cpp.o"
+  "CMakeFiles/forgecad.dir/forgeCad2026.cpp.o.d"
+  "CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o"
+  "CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o.d"
+  "CMakeFiles/forgecad.dir/forgecad_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/forgecad.dir/forgecad_autogen/mocs_compilation.cpp.o.d"
+  "forgecad"
+  "forgecad.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CUDA CXX)
+  include(CMakeFiles/forgecad.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

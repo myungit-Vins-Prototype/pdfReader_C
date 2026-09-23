@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_forgekernel_FILE /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/libforgekernel.a)
+set(__QT_DEPLOY_TARGET_forgekernel_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_forgekernel_tests_FILE /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/forgekernel_tests)
+set(__QT_DEPLOY_TARGET_forgekernel_tests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_forgecad_FILE /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/forgecad)
+set(__QT_DEPLOY_TARGET_forgecad_TYPE EXECUTABLE)

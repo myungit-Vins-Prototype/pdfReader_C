@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bspline.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bspline.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bspline_surface.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_bspline_surface.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_curve_algo.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_curve_algo.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_curves.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_curves.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_mass.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_pcurve.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_pcurve.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_predicates.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_predicates.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_primitives.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_primitives.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_surface_algo.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_surface_algo.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_surfaces.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_surfaces.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_topology.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_topology.cpp.o.d"
+  "forgekernel_tests"
+  "forgekernel_tests.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/forgekernel_tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

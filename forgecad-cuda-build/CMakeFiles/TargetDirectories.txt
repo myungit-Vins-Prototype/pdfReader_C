@@ -1,0 +1,11 @@
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/forgecad.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/test.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/edit_cache.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/rebuild_cache.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/forgecad_autogen_timestamp_deps.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles/forgecad_autogen.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/CMakeFiles/forgekernel.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/CMakeFiles/forgekernel_tests.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/CMakeFiles/test.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/CMakeFiles/edit_cache.dir
+/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/CMakeFiles/rebuild_cache.dir

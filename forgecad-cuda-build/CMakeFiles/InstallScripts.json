@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/cmake_install.cmake",
+		"/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

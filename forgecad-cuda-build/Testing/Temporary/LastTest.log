@@ -1,0 +1,84 @@
+Start testing: Sep 23 15:07 CEST
+----------------------------------------------------------
+1/1 Testing: forgekernel_tests
+1/1 Test: forgekernel_tests
+Command: "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel/forgekernel_tests"
+Directory: /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel
+"forgekernel_tests" start time: Sep 23 15:07 CEST
+Output:
+----------------------------------------------------------
+[  OK  ] VecBasics
+[  OK  ] FrameMatchesGpAx3
+[  OK  ] TransformMatchesGpTrsf
+[  OK  ] Orient2dBasic
+[  OK  ] Orient2dNearDegenerate
+[  OK  ] Orient3dBasic
+[  OK  ] Orient3dNearDegenerate
+[  OK  ] PredicatesPermutationConsistency
+[  OK  ] BernsteinArithmetic
+[  OK  ] BernsteinRoots
+[  OK  ] BernsteinRootsDegenerate
+[  OK  ] LineMatchesOcct
+[  OK  ] CircleMatchesOcct
+[  OK  ] Circle2dMatchesOcct
+[  OK  ] EllipseMatchesOcct
+[  OK  ] TrimmedCurveOnPeriodicBasis
+[  OK  ] BSplineEvaluateMatchesOcct3d
+[  OK  ] BSplineEvaluateMatchesOcct2d
+[  OK  ] BSplineKnotInsertionMatchesOcct
+[  OK  ] BSplineBezierSegments
+[  OK  ] BSplineUnclampedAndLeftLimit
+[  OK  ] ConicArcsAreExact
+[  OK  ] BSplineValidation
+[  OK  ] ProjectOnLineAndCircle
+[  OK  ] ProjectOnBSplineMatchesOcct
+[  OK  ] ProjectOnEllipseMatchesOcct
+[  OK  ] ArcLengthExact
+[  OK  ] ArcLengthMatchesOcct
+[  OK  ] ProjectOnTransformedCurve
+[  OK  ] PlaneMatchesOcct
+[  OK  ] CylinderMatchesOcct
+[  OK  ] ConeMatchesOcct
+[  OK  ] SphereMatchesOcct
+[  OK  ] TorusMatchesOcct
+[  OK  ] ExtrusionMatchesOcct
+[  OK  ] RevolutionMatchesOcct
+[  OK  ] BSplineSurfaceMatchesOcct
+[  OK  ] BSplineSurfaceBezierPatches
+[  OK  ] BSplineSurfaceValidation
+[  OK  ] ProjectOnPlaneAndCylinder
+[  OK  ] ProjectOnConeSphereTorus
+[  OK  ] ProjectOnBSplineSurface
+[  OK  ] ProjectOnExtrusionAndRevolution
+[  OK  ] ProjectOnPlanarRevolution
+[  OK  ] ProjectOnInfiniteExtrusion
+[  OK  ] MvfsKvfs
+[  OK  ] RandomEulerSequences
+[  OK  ] FaceRingOperators
+[  OK  ] SemvSplitsGeometry
+[  OK  ] CheckerDetectsDamage
+[  OK  ] BoxMatchesOcct
+[  OK  ] PrismWithHolesMatchesOcct
+[  OK  ] CylinderWithoutSeam
+[  OK  ] ProfileAreaAndWinding
+[  OK  ] ProfileChainingAndNesting
+[  OK  ] ExtrusionMatchesOcct
+[  OK  ] ExtrusionWithTolerantVertices
+[  OK  ] MassOfBoxes
+[  OK  ] MassOfCylinders
+[  OK  ] MassOfPrismsMatchesOcct
+[  OK  ] MassOfExtrusions
+[  OK  ] MassOfConeFrustum
+[  OK  ] MassWithPolesAndTori
+[  OK  ] FaceAreas
+[  OK  ] MassEdgeCases
+65/65 test superati
+<end of output>
+Test time =   2.89 sec
+----------------------------------------------------------
+Test Passed.
+"forgekernel_tests" end time: Sep 23 15:08 CEST
+"forgekernel_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Sep 23 15:08 CEST
