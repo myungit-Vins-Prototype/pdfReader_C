@@ -187,6 +187,12 @@
 },
 {
   "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel.dir/fk_unify.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp",
+  "output": "kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
   "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_main.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_main.cpp",
   "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o"
@@ -292,5 +298,11 @@
   "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_boolean.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_boolean.cpp",
   "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_unify.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_unify.cpp",
+  "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o"
 }
 ]

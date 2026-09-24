@@ -682,6 +682,30 @@ fk_topology.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_topology.cpp.s
 .PHONY : fk_topology.cpp.s
 
+fk_unify.o: fk_unify.cpp.o
+.PHONY : fk_unify.o
+
+# target to build an object file
+fk_unify.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o
+.PHONY : fk_unify.cpp.o
+
+fk_unify.i: fk_unify.cpp.i
+.PHONY : fk_unify.i
+
+# target to preprocess a source file
+fk_unify.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.i
+.PHONY : fk_unify.cpp.i
+
+fk_unify.s: fk_unify.cpp.s
+.PHONY : fk_unify.s
+
+# target to generate assembly for a file
+fk_unify.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.s
+.PHONY : fk_unify.cpp.s
+
 tests/fk_test_main.o: tests/fk_test_main.cpp.o
 .PHONY : tests/fk_test_main.o
 
@@ -1114,6 +1138,30 @@ tests/test_topology.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_topology.cpp.s
 .PHONY : tests/test_topology.cpp.s
 
+tests/test_unify.o: tests/test_unify.cpp.o
+.PHONY : tests/test_unify.o
+
+# target to build an object file
+tests/test_unify.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o
+.PHONY : tests/test_unify.cpp.o
+
+tests/test_unify.i: tests/test_unify.cpp.i
+.PHONY : tests/test_unify.i
+
+# target to preprocess a source file
+tests/test_unify.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.i
+.PHONY : tests/test_unify.cpp.i
+
+tests/test_unify.s: tests/test_unify.cpp.s
+.PHONY : tests/test_unify.s
+
+# target to generate assembly for a file
+tests/test_unify.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.s
+.PHONY : tests/test_unify.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1191,6 +1239,9 @@ help:
 	@echo "... fk_topology.o"
 	@echo "... fk_topology.i"
 	@echo "... fk_topology.s"
+	@echo "... fk_unify.o"
+	@echo "... fk_unify.i"
+	@echo "... fk_unify.s"
 	@echo "... tests/fk_test_main.o"
 	@echo "... tests/fk_test_main.i"
 	@echo "... tests/fk_test_main.s"
@@ -1245,6 +1296,9 @@ help:
 	@echo "... tests/test_topology.o"
 	@echo "... tests/test_topology.i"
 	@echo "... tests/test_topology.s"
+	@echo "... tests/test_unify.o"
+	@echo "... tests/test_unify.i"
+	@echo "... tests/test_unify.s"
 .PHONY : help
 
 

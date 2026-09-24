@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgekernel_tests.dir/tests/test_surfaces.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_topology.cpp.o"
   "CMakeFiles/forgekernel_tests.dir/tests/test_topology.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o.d"
   "forgekernel_tests"
   "forgekernel_tests.pdb"
 )

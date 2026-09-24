@@ -530,8 +530,11 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_marching.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_quadrature.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_profiles.h \
  /usr/include/opencascade/BRepBuilderAPI_MakeEdge.hxx \
  /usr/include/opencascade/BRepLib_MakeEdge.hxx \

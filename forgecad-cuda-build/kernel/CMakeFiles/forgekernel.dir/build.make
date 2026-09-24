@@ -380,6 +380,20 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_boolean.cpp.s"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.cpp -o CMakeFiles/forgekernel.dir/fk_boolean.cpp.s
 
+kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o: kernel/CMakeFiles/forgekernel.dir/flags.make
+kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp
+kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o: kernel/CMakeFiles/forgekernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o -MF CMakeFiles/forgekernel.dir/fk_unify.cpp.o.d -o CMakeFiles/forgekernel.dir/fk_unify.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp
+
+kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel.dir/fk_unify.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp > CMakeFiles/forgekernel.dir/fk_unify.cpp.i
+
+kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_unify.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp -o CMakeFiles/forgekernel.dir/fk_unify.cpp.s
+
 # Object files for target forgekernel
 forgekernel_OBJECTS = \
 "CMakeFiles/forgekernel.dir/fk_math.cpp.o" \
@@ -403,7 +417,8 @@ forgekernel_OBJECTS = \
 "CMakeFiles/forgekernel.dir/fk_intersect.cpp.o" \
 "CMakeFiles/forgekernel.dir/fk_marching.cpp.o" \
 "CMakeFiles/forgekernel.dir/fk_classify.cpp.o" \
-"CMakeFiles/forgekernel.dir/fk_boolean.cpp.o"
+"CMakeFiles/forgekernel.dir/fk_boolean.cpp.o" \
+"CMakeFiles/forgekernel.dir/fk_unify.cpp.o"
 
 # External object files for target forgekernel
 forgekernel_EXTERNAL_OBJECTS =
@@ -430,9 +445,10 @@ kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_intersect.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o
+kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/build.make
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libforgekernel.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libforgekernel.a"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && $(CMAKE_COMMAND) -P CMakeFiles/forgekernel.dir/cmake_clean_target.cmake
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forgekernel.dir/link.txt --verbose=$(VERBOSE)
 
