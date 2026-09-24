@@ -464,6 +464,9 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /usr/include/opencascade/NCollection_Array2.hxx \
  /usr/include/opencascade/TColStd_Array2OfBoolean.hxx \
  /usr/include/opencascade/BRepPrimAPI_MakeSweep.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeRevol.hxx \
+ /usr/include/opencascade/BRepSweep_Revol.hxx \
+ /usr/include/opencascade/BRepSweep_Rotation.hxx \
  /usr/include/opencascade/GProp_GProps.hxx \
  /usr/include/opencascade/BRepMesh_IncrementalMesh.hxx \
  /usr/include/opencascade/BRepMesh_DiscretRoot.hxx \
@@ -530,6 +533,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_marching.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h \

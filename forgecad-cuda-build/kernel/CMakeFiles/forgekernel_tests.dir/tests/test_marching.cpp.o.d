@@ -412,6 +412,15 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o: \
  /usr/include/opencascade/Geom_Conic.hxx \
  /usr/include/opencascade/Geom_CylindricalSurface.hxx \
  /usr/include/opencascade/Geom_ElementarySurface.hxx \
+ /usr/include/opencascade/Geom_ConicalSurface.hxx \
+ /usr/include/opencascade/Geom_Plane.hxx \
+ /usr/include/opencascade/Geom_SphericalSurface.hxx \
+ /usr/include/opencascade/Geom_SurfaceOfRevolution.hxx \
+ /usr/include/opencascade/Geom_SweptSurface.hxx \
+ /usr/include/opencascade/GeomEvaluator_SurfaceOfRevolution.hxx \
+ /usr/include/opencascade/Geom_ToroidalSurface.hxx \
+ /usr/include/opencascade/Geom_TrimmedCurve.hxx \
+ /usr/include/opencascade/Geom_BoundedCurve.hxx \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
@@ -500,7 +509,6 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o: \
  /usr/include/opencascade/Geom2d_BoundedCurve.hxx \
  /usr/include/opencascade/Geom_BSplineCurve.hxx \
  /usr/include/opencascade/TColgp_HArray1OfPnt.hxx \
- /usr/include/opencascade/Geom_BoundedCurve.hxx \
  /usr/include/opencascade/Geom_BSplineSurface.hxx \
  /usr/include/opencascade/TColgp_HArray2OfPnt.hxx \
  /usr/include/opencascade/Geom_BoundedSurface.hxx \

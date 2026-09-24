@@ -43,6 +43,12 @@
 },
 {
   "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build",
+  "command": "/usr/bin/c++ -DFORGECAD_HAS_CUDA=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/forgecad_autogen/include -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtOpenGLWidgets -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -mno-direct-extern-access -o CMakeFiles/forgecad.dir/cad_forge.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_forge.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/cad_forge.cpp",
+  "output": "CMakeFiles/forgecad.dir/cad_forge.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build",
   "command": "/usr/bin/c++ -DFORGECAD_HAS_CUDA=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/forgecad_autogen/include -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtOpenGLWidgets -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -mno-direct-extern-access -o CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp",
   "output": "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o"
@@ -193,6 +199,30 @@
 },
 {
   "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp",
+  "output": "kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp",
+  "output": "kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp",
+  "output": "kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel.dir/fk_revolve.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp",
+  "output": "kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
   "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_main.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_main.cpp",
   "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o"
@@ -304,5 +334,29 @@
   "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_unify.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_unify.cpp",
   "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp",
+  "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp",
+  "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp",
+  "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel",
+  "command": "/usr/bin/c++  -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -O2 -g -o CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp",
+  "output": "kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o"
 }
 ]

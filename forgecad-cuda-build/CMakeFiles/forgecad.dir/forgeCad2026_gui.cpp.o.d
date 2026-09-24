@@ -443,6 +443,13 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/TopAbs_ShapeEnum.hxx \
  /usr/include/opencascade/TopAbs_State.hxx \
  /usr/include/opencascade/TopoDS_ListOfShape.hxx \
+ /home/myungit/Documenti/pdfReader_C/cad_forge.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /home/myungit/Documenti/pdfReader_C/cad_history.h \
  /home/myungit/Documenti/pdfReader_C/cad_kernel.h \
  /usr/include/opencascade/gp_Ax3.hxx /usr/include/opencascade/gp_Ax1.hxx \
@@ -525,6 +532,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtGui/qpainterpath.h \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtCore/QSettings /usr/include/qt6/QtCore/qsettings.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
  /usr/include/qt6/QtWidgets/qabstractspinbox.h \

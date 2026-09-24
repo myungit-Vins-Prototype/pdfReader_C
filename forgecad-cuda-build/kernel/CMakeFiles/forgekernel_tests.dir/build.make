@@ -338,6 +338,62 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.s"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/tests/test_unify.cpp -o CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.s
 
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/flags.make
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o -MF CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o.d -o CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp > CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.i
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/tests/test_tessellate.cpp -o CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.s
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/flags.make
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o -MF CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o.d -o CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp > CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.i
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/tests/test_nurbs.cpp -o CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.s
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/flags.make
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o -MF CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o.d -o CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp > CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.i
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/tests/test_curve_surface.cpp -o CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.s
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/flags.make
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o: kernel/CMakeFiles/forgekernel_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o -MF CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o.d -o CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp > CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.i
+
+kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/tests/test_revolve.cpp -o CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.s
+
 # Object files for target forgekernel_tests
 forgekernel_tests_OBJECTS = \
 "CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o" \
@@ -358,7 +414,11 @@ forgekernel_tests_OBJECTS = \
 "CMakeFiles/forgekernel_tests.dir/tests/test_intersect.cpp.o" \
 "CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o" \
 "CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o" \
-"CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o"
+"CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o" \
+"CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o" \
+"CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o" \
+"CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o" \
+"CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o"
 
 # External object files for target forgekernel_tests
 forgekernel_tests_EXTERNAL_OBJECTS =
@@ -382,6 +442,10 @@ kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_int
 kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o
 kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o
 kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_unify.cpp.o
+kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o
+kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o
+kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o
+kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o
 kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/build.make
 kernel/forgekernel_tests: kernel/libforgekernel.a
 kernel/forgekernel_tests: /usr/lib/libTKBO.so.7.9.3
@@ -397,7 +461,7 @@ kernel/forgekernel_tests: /usr/lib/libTKG2d.so.7.9.3
 kernel/forgekernel_tests: /usr/lib/libTKMath.so.7.9.3
 kernel/forgekernel_tests: /usr/lib/libTKernel.so.7.9.3
 kernel/forgekernel_tests: kernel/CMakeFiles/forgekernel_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable forgekernel_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable forgekernel_tests"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forgekernel_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

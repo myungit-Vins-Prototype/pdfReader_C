@@ -215,6 +215,30 @@ cad_curve_solver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_curve_solver.cpp.s
 .PHONY : cad_curve_solver.cpp.s
 
+cad_forge.o: cad_forge.cpp.o
+.PHONY : cad_forge.o
+
+# target to build an object file
+cad_forge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_forge.cpp.o
+.PHONY : cad_forge.cpp.o
+
+cad_forge.i: cad_forge.cpp.i
+.PHONY : cad_forge.i
+
+# target to preprocess a source file
+cad_forge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_forge.cpp.i
+.PHONY : cad_forge.cpp.i
+
+cad_forge.s: cad_forge.cpp.s
+.PHONY : cad_forge.s
+
+# target to generate assembly for a file
+cad_forge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_forge.cpp.s
+.PHONY : cad_forge.cpp.s
+
 cad_history.o: cad_history.cpp.o
 .PHONY : cad_history.o
 
@@ -424,6 +448,9 @@ help:
 	@echo "... cad_curve_solver.o"
 	@echo "... cad_curve_solver.i"
 	@echo "... cad_curve_solver.s"
+	@echo "... cad_forge.o"
+	@echo "... cad_forge.i"
+	@echo "... cad_forge.s"
 	@echo "... cad_history.o"
 	@echo "... cad_history.i"
 	@echo "... cad_history.s"

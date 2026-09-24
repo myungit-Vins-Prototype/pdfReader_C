@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "forgecad_autogen"
   "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o"
   "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_forge.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_forge.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_history.cpp.o"
   "CMakeFiles/forgecad.dir/cad_history.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_kernel.cpp.o"

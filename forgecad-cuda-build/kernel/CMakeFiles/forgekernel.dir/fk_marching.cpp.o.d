@@ -178,4 +178,8 @@ kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bernstein.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.h \
+ /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.h

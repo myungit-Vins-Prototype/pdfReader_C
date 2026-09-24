@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/myungit/Documenti/pdfReader_C/cuda_support.cu" "CMakeFiles/forgecad.dir/cuda_support.cu.o" "gcc" "CMakeFiles/forgecad.dir/cuda_support.cu.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_curve_solver.cpp" "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o.d"
+  "/home/myungit/Documenti/pdfReader_C/cad_forge.cpp" "CMakeFiles/forgecad.dir/cad_forge.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_forge.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_history.cpp" "CMakeFiles/forgecad.dir/cad_history.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_history.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_kernel.cpp" "CMakeFiles/forgecad.dir/cad_kernel.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_kernel.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp" "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o.d"

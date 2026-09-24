@@ -394,6 +394,30 @@ fk_curve_ops.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_curve_ops.cpp.s
 .PHONY : fk_curve_ops.cpp.s
 
+fk_curve_surface.o: fk_curve_surface.cpp.o
+.PHONY : fk_curve_surface.o
+
+# target to build an object file
+fk_curve_surface.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o
+.PHONY : fk_curve_surface.cpp.o
+
+fk_curve_surface.i: fk_curve_surface.cpp.i
+.PHONY : fk_curve_surface.i
+
+# target to preprocess a source file
+fk_curve_surface.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.i
+.PHONY : fk_curve_surface.cpp.i
+
+fk_curve_surface.s: fk_curve_surface.cpp.s
+.PHONY : fk_curve_surface.s
+
+# target to generate assembly for a file
+fk_curve_surface.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.s
+.PHONY : fk_curve_surface.cpp.s
+
 fk_extrude.o: fk_extrude.cpp.o
 .PHONY : fk_extrude.o
 
@@ -514,6 +538,30 @@ fk_math.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_math.cpp.s
 .PHONY : fk_math.cpp.s
 
+fk_nurbs.o: fk_nurbs.cpp.o
+.PHONY : fk_nurbs.o
+
+# target to build an object file
+fk_nurbs.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o
+.PHONY : fk_nurbs.cpp.o
+
+fk_nurbs.i: fk_nurbs.cpp.i
+.PHONY : fk_nurbs.i
+
+# target to preprocess a source file
+fk_nurbs.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.i
+.PHONY : fk_nurbs.cpp.i
+
+fk_nurbs.s: fk_nurbs.cpp.s
+.PHONY : fk_nurbs.s
+
+# target to generate assembly for a file
+fk_nurbs.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.s
+.PHONY : fk_nurbs.cpp.s
+
 fk_pcurve.o: fk_pcurve.cpp.o
 .PHONY : fk_pcurve.o
 
@@ -610,6 +658,30 @@ fk_profile.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_profile.cpp.s
 .PHONY : fk_profile.cpp.s
 
+fk_revolve.o: fk_revolve.cpp.o
+.PHONY : fk_revolve.o
+
+# target to build an object file
+fk_revolve.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o
+.PHONY : fk_revolve.cpp.o
+
+fk_revolve.i: fk_revolve.cpp.i
+.PHONY : fk_revolve.i
+
+# target to preprocess a source file
+fk_revolve.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.i
+.PHONY : fk_revolve.cpp.i
+
+fk_revolve.s: fk_revolve.cpp.s
+.PHONY : fk_revolve.s
+
+# target to generate assembly for a file
+fk_revolve.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.s
+.PHONY : fk_revolve.cpp.s
+
 fk_surface.o: fk_surface.cpp.o
 .PHONY : fk_surface.o
 
@@ -657,6 +729,30 @@ fk_surface_algo.s: fk_surface_algo.cpp.s
 fk_surface_algo.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_surface_algo.cpp.s
 .PHONY : fk_surface_algo.cpp.s
+
+fk_tessellate.o: fk_tessellate.cpp.o
+.PHONY : fk_tessellate.o
+
+# target to build an object file
+fk_tessellate.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o
+.PHONY : fk_tessellate.cpp.o
+
+fk_tessellate.i: fk_tessellate.cpp.i
+.PHONY : fk_tessellate.i
+
+# target to preprocess a source file
+fk_tessellate.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.i
+.PHONY : fk_tessellate.cpp.i
+
+fk_tessellate.s: fk_tessellate.cpp.s
+.PHONY : fk_tessellate.s
+
+# target to generate assembly for a file
+fk_tessellate.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.s
+.PHONY : fk_tessellate.cpp.s
 
 fk_topology.o: fk_topology.cpp.o
 .PHONY : fk_topology.o
@@ -850,6 +946,30 @@ tests/test_curve_algo.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_algo.cpp.s
 .PHONY : tests/test_curve_algo.cpp.s
 
+tests/test_curve_surface.o: tests/test_curve_surface.cpp.o
+.PHONY : tests/test_curve_surface.o
+
+# target to build an object file
+tests/test_curve_surface.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.o
+.PHONY : tests/test_curve_surface.cpp.o
+
+tests/test_curve_surface.i: tests/test_curve_surface.cpp.i
+.PHONY : tests/test_curve_surface.i
+
+# target to preprocess a source file
+tests/test_curve_surface.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.i
+.PHONY : tests/test_curve_surface.cpp.i
+
+tests/test_curve_surface.s: tests/test_curve_surface.cpp.s
+.PHONY : tests/test_curve_surface.s
+
+# target to generate assembly for a file
+tests/test_curve_surface.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_curve_surface.cpp.s
+.PHONY : tests/test_curve_surface.cpp.s
+
 tests/test_curves.o: tests/test_curves.cpp.o
 .PHONY : tests/test_curves.o
 
@@ -994,6 +1114,30 @@ tests/test_math.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_math.cpp.s
 .PHONY : tests/test_math.cpp.s
 
+tests/test_nurbs.o: tests/test_nurbs.cpp.o
+.PHONY : tests/test_nurbs.o
+
+# target to build an object file
+tests/test_nurbs.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.o
+.PHONY : tests/test_nurbs.cpp.o
+
+tests/test_nurbs.i: tests/test_nurbs.cpp.i
+.PHONY : tests/test_nurbs.i
+
+# target to preprocess a source file
+tests/test_nurbs.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.i
+.PHONY : tests/test_nurbs.cpp.i
+
+tests/test_nurbs.s: tests/test_nurbs.cpp.s
+.PHONY : tests/test_nurbs.s
+
+# target to generate assembly for a file
+tests/test_nurbs.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_nurbs.cpp.s
+.PHONY : tests/test_nurbs.cpp.s
+
 tests/test_pcurve.o: tests/test_pcurve.cpp.o
 .PHONY : tests/test_pcurve.o
 
@@ -1066,6 +1210,30 @@ tests/test_primitives.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_primitives.cpp.s
 .PHONY : tests/test_primitives.cpp.s
 
+tests/test_revolve.o: tests/test_revolve.cpp.o
+.PHONY : tests/test_revolve.o
+
+# target to build an object file
+tests/test_revolve.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.o
+.PHONY : tests/test_revolve.cpp.o
+
+tests/test_revolve.i: tests/test_revolve.cpp.i
+.PHONY : tests/test_revolve.i
+
+# target to preprocess a source file
+tests/test_revolve.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.i
+.PHONY : tests/test_revolve.cpp.i
+
+tests/test_revolve.s: tests/test_revolve.cpp.s
+.PHONY : tests/test_revolve.s
+
+# target to generate assembly for a file
+tests/test_revolve.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_revolve.cpp.s
+.PHONY : tests/test_revolve.cpp.s
+
 tests/test_surface_algo.o: tests/test_surface_algo.cpp.o
 .PHONY : tests/test_surface_algo.o
 
@@ -1113,6 +1281,30 @@ tests/test_surfaces.s: tests/test_surfaces.cpp.s
 tests/test_surfaces.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_surfaces.cpp.s
 .PHONY : tests/test_surfaces.cpp.s
+
+tests/test_tessellate.o: tests/test_tessellate.cpp.o
+.PHONY : tests/test_tessellate.o
+
+# target to build an object file
+tests/test_tessellate.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.o
+.PHONY : tests/test_tessellate.cpp.o
+
+tests/test_tessellate.i: tests/test_tessellate.cpp.i
+.PHONY : tests/test_tessellate.i
+
+# target to preprocess a source file
+tests/test_tessellate.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.i
+.PHONY : tests/test_tessellate.cpp.i
+
+tests/test_tessellate.s: tests/test_tessellate.cpp.s
+.PHONY : tests/test_tessellate.s
+
+# target to generate assembly for a file
+tests/test_tessellate.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_tessellate.cpp.s
+.PHONY : tests/test_tessellate.cpp.s
 
 tests/test_topology.o: tests/test_topology.cpp.o
 .PHONY : tests/test_topology.o
@@ -1203,6 +1395,9 @@ help:
 	@echo "... fk_curve_ops.o"
 	@echo "... fk_curve_ops.i"
 	@echo "... fk_curve_ops.s"
+	@echo "... fk_curve_surface.o"
+	@echo "... fk_curve_surface.i"
+	@echo "... fk_curve_surface.s"
 	@echo "... fk_extrude.o"
 	@echo "... fk_extrude.i"
 	@echo "... fk_extrude.s"
@@ -1218,6 +1413,9 @@ help:
 	@echo "... fk_math.o"
 	@echo "... fk_math.i"
 	@echo "... fk_math.s"
+	@echo "... fk_nurbs.o"
+	@echo "... fk_nurbs.i"
+	@echo "... fk_nurbs.s"
 	@echo "... fk_pcurve.o"
 	@echo "... fk_pcurve.i"
 	@echo "... fk_pcurve.s"
@@ -1230,12 +1428,18 @@ help:
 	@echo "... fk_profile.o"
 	@echo "... fk_profile.i"
 	@echo "... fk_profile.s"
+	@echo "... fk_revolve.o"
+	@echo "... fk_revolve.i"
+	@echo "... fk_revolve.s"
 	@echo "... fk_surface.o"
 	@echo "... fk_surface.i"
 	@echo "... fk_surface.s"
 	@echo "... fk_surface_algo.o"
 	@echo "... fk_surface_algo.i"
 	@echo "... fk_surface_algo.s"
+	@echo "... fk_tessellate.o"
+	@echo "... fk_tessellate.i"
+	@echo "... fk_tessellate.s"
 	@echo "... fk_topology.o"
 	@echo "... fk_topology.i"
 	@echo "... fk_topology.s"
@@ -1260,6 +1464,9 @@ help:
 	@echo "... tests/test_curve_algo.o"
 	@echo "... tests/test_curve_algo.i"
 	@echo "... tests/test_curve_algo.s"
+	@echo "... tests/test_curve_surface.o"
+	@echo "... tests/test_curve_surface.i"
+	@echo "... tests/test_curve_surface.s"
 	@echo "... tests/test_curves.o"
 	@echo "... tests/test_curves.i"
 	@echo "... tests/test_curves.s"
@@ -1278,6 +1485,9 @@ help:
 	@echo "... tests/test_math.o"
 	@echo "... tests/test_math.i"
 	@echo "... tests/test_math.s"
+	@echo "... tests/test_nurbs.o"
+	@echo "... tests/test_nurbs.i"
+	@echo "... tests/test_nurbs.s"
 	@echo "... tests/test_pcurve.o"
 	@echo "... tests/test_pcurve.i"
 	@echo "... tests/test_pcurve.s"
@@ -1287,12 +1497,18 @@ help:
 	@echo "... tests/test_primitives.o"
 	@echo "... tests/test_primitives.i"
 	@echo "... tests/test_primitives.s"
+	@echo "... tests/test_revolve.o"
+	@echo "... tests/test_revolve.i"
+	@echo "... tests/test_revolve.s"
 	@echo "... tests/test_surface_algo.o"
 	@echo "... tests/test_surface_algo.i"
 	@echo "... tests/test_surface_algo.s"
 	@echo "... tests/test_surfaces.o"
 	@echo "... tests/test_surfaces.i"
 	@echo "... tests/test_surfaces.s"
+	@echo "... tests/test_tessellate.o"
+	@echo "... tests/test_tessellate.i"
+	@echo "... tests/test_tessellate.s"
 	@echo "... tests/test_topology.o"
 	@echo "... tests/test_topology.i"
 	@echo "... tests/test_topology.s"

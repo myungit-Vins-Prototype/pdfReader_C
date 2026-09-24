@@ -394,6 +394,62 @@ kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_unify.cpp.s"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_unify.cpp -o CMakeFiles/forgekernel.dir/fk_unify.cpp.s
 
+kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: kernel/CMakeFiles/forgekernel.dir/flags.make
+kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp
+kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: kernel/CMakeFiles/forgekernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o -MF CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o.d -o CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp
+
+kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel.dir/fk_tessellate.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp > CMakeFiles/forgekernel.dir/fk_tessellate.cpp.i
+
+kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_tessellate.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.cpp -o CMakeFiles/forgekernel.dir/fk_tessellate.cpp.s
+
+kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o: kernel/CMakeFiles/forgekernel.dir/flags.make
+kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp
+kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o: kernel/CMakeFiles/forgekernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o -MF CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o.d -o CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp
+
+kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel.dir/fk_nurbs.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp > CMakeFiles/forgekernel.dir/fk_nurbs.cpp.i
+
+kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_nurbs.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.cpp -o CMakeFiles/forgekernel.dir/fk_nurbs.cpp.s
+
+kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o: kernel/CMakeFiles/forgekernel.dir/flags.make
+kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp
+kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o: kernel/CMakeFiles/forgekernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o -MF CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o.d -o CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp
+
+kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp > CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.i
+
+kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.cpp -o CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.s
+
+kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: kernel/CMakeFiles/forgekernel.dir/flags.make
+kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp
+kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: kernel/CMakeFiles/forgekernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o -MF CMakeFiles/forgekernel.dir/fk_revolve.cpp.o.d -o CMakeFiles/forgekernel.dir/fk_revolve.cpp.o -c /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp
+
+kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekernel.dir/fk_revolve.cpp.i"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp > CMakeFiles/forgekernel.dir/fk_revolve.cpp.i
+
+kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekernel.dir/fk_revolve.cpp.s"
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp -o CMakeFiles/forgekernel.dir/fk_revolve.cpp.s
+
 # Object files for target forgekernel
 forgekernel_OBJECTS = \
 "CMakeFiles/forgekernel.dir/fk_math.cpp.o" \
@@ -418,7 +474,11 @@ forgekernel_OBJECTS = \
 "CMakeFiles/forgekernel.dir/fk_marching.cpp.o" \
 "CMakeFiles/forgekernel.dir/fk_classify.cpp.o" \
 "CMakeFiles/forgekernel.dir/fk_boolean.cpp.o" \
-"CMakeFiles/forgekernel.dir/fk_unify.cpp.o"
+"CMakeFiles/forgekernel.dir/fk_unify.cpp.o" \
+"CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o" \
+"CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o" \
+"CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o" \
+"CMakeFiles/forgekernel.dir/fk_revolve.cpp.o"
 
 # External object files for target forgekernel
 forgekernel_EXTERNAL_OBJECTS =
@@ -446,9 +506,13 @@ kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_marching.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_unify.cpp.o
+kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o
+kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_nurbs.cpp.o
+kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_curve_surface.cpp.o
+kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/build.make
 kernel/libforgekernel.a: kernel/CMakeFiles/forgekernel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libforgekernel.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libforgekernel.a"
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && $(CMAKE_COMMAND) -P CMakeFiles/forgekernel.dir/cmake_clean_target.cmake
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/kernel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forgekernel.dir/link.txt --verbose=$(VERBOSE)
 

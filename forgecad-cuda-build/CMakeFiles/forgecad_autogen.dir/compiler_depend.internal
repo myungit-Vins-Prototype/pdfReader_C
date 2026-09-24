@@ -5,6 +5,8 @@
  /home/myungit/Documenti/pdfReader_C/CMakeLists.txt
  /home/myungit/Documenti/pdfReader_C/cad_curve_solver.cpp
  /home/myungit/Documenti/pdfReader_C/cad_curve_solver.h
+ /home/myungit/Documenti/pdfReader_C/cad_forge.cpp
+ /home/myungit/Documenti/pdfReader_C/cad_forge.h
  /home/myungit/Documenti/pdfReader_C/cad_history.cpp
  /home/myungit/Documenti/pdfReader_C/cad_history.h
  /home/myungit/Documenti/pdfReader_C/cad_kernel.cpp

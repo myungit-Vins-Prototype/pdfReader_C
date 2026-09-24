@@ -177,4 +177,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o: \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h

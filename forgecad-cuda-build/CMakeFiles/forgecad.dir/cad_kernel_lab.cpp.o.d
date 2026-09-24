@@ -579,11 +579,14 @@ CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o: \
  /usr/include/opencascade/Geom_ToroidalSurface.hxx \
  /usr/include/c++/16/chrono /usr/include/c++/16/bits/chrono.h \
  /usr/include/c++/16/ratio \
+ /home/myungit/Documenti/pdfReader_C/cad_forge.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
  /home/myungit/Documenti/pdfReader_C/cad_kernel.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \

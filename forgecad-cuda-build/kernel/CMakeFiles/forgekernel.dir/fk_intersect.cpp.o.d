@@ -170,11 +170,16 @@ kernel/CMakeFiles/forgekernel.dir/fk_intersect.cpp.o: \
  /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/stdexcept_except.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.h \
+ /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.h \
  /usr/include/c++/16/algorithm /usr/include/c++/16/bits/stl_algo.h \
  /usr/include/c++/16/bits/algorithmfwd.h \
  /usr/include/c++/16/bits/stl_heap.h \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bernstein.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h

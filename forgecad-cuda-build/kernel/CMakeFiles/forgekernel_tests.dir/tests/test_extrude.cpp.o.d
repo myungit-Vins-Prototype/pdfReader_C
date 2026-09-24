@@ -521,6 +521,8 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_extrude.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_profiles.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_util.h \

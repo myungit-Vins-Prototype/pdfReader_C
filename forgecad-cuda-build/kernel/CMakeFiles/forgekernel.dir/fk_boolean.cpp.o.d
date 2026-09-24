@@ -179,6 +179,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_classify.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_marching.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
