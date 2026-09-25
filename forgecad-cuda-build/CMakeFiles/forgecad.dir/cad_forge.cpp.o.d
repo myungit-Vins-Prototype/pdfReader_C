@@ -402,4 +402,6 @@ CMakeFiles/forgecad.dir/cad_forge.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h

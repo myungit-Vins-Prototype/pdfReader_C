@@ -653,12 +653,10 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/IMeshTools_MeshAlgoType.hxx \
  /usr/include/opencascade/IMeshTools_ModelAlgo.hxx \
  /usr/include/opencascade/Standard_NumericError.hxx \
- /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx \
- /usr/include/opencascade/BRepSweep_Prism.hxx \
- /usr/include/opencascade/BRepSweep_Translation.hxx \
- /usr/include/opencascade/BRepSweep_Trsf.hxx \
- /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx \
- /usr/include/opencascade/BRepSweep_Builder.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeBox.hxx \
+ /usr/include/opencascade/BRepPrim_Wedge.hxx \
+ /usr/include/opencascade/BRepPrim_GWedge.hxx \
+ /usr/include/opencascade/BRepPrim_Builder.hxx \
  /usr/include/opencascade/BRep_Builder.hxx \
  /usr/include/opencascade/Poly_ListOfTriangulation.hxx \
  /usr/include/opencascade/TopoDS_Builder.hxx \
@@ -687,6 +685,21 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/Poly_Polygon3D.hxx \
  /usr/include/opencascade/Poly_Polygon2D.hxx \
  /usr/include/opencascade/Poly_PolygonOnTriangulation.hxx \
+ /usr/include/opencascade/BRepPrim_Builder.lxx \
+ /usr/include/opencascade/BRepPrim_Direction.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeCone.hxx \
+ /usr/include/opencascade/BRepPrim_Cone.hxx \
+ /usr/include/opencascade/BRepPrim_Revolution.hxx \
+ /usr/include/opencascade/BRepPrim_OneAxis.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeOneAxis.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeCylinder.hxx \
+ /usr/include/opencascade/BRepPrim_Cylinder.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx \
+ /usr/include/opencascade/BRepSweep_Prism.hxx \
+ /usr/include/opencascade/BRepSweep_Translation.hxx \
+ /usr/include/opencascade/BRepSweep_Trsf.hxx \
+ /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx \
+ /usr/include/opencascade/BRepSweep_Builder.hxx \
  /usr/include/opencascade/BRepSweep_Builder.lxx \
  /usr/include/opencascade/BRepSweep_Tool.hxx \
  /usr/include/opencascade/Sweep_NumShapeTool.hxx \
@@ -695,6 +708,13 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/TopTools_Array2OfShape.hxx \
  /usr/include/opencascade/TColStd_Array2OfBoolean.hxx \
  /usr/include/opencascade/BRepPrimAPI_MakeSweep.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeRevol.hxx \
+ /usr/include/opencascade/BRepSweep_Revol.hxx \
+ /usr/include/opencascade/BRepSweep_Rotation.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeSphere.hxx \
+ /usr/include/opencascade/BRepPrim_Sphere.hxx \
+ /usr/include/opencascade/BRepPrimAPI_MakeTorus.hxx \
+ /usr/include/opencascade/BRepPrim_Torus.hxx \
  /usr/include/opencascade/BRepTools.hxx \
  /usr/include/opencascade/TopTools_FormatVersion.hxx \
  /usr/include/opencascade/GCPnts_TangentialDeflection.hxx \

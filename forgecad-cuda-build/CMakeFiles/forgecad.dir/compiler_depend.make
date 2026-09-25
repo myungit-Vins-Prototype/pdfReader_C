@@ -609,7 +609,9 @@ CMakeFiles/forgecad.dir/cad_forge.cpp.o: /home/myungit/Documenti/pdfReader_C/cad
   /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
@@ -2030,12 +2032,32 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: /home/myungit/Documenti/pdfReader_C/ca
   /usr/include/opencascade/BRepMesh_PairOfIndex.hxx \
   /usr/include/opencascade/BRepMesh_Triangle.hxx \
   /usr/include/opencascade/BRepMesh_Vertex.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeBox.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeCone.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeCylinder.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeOneAxis.hxx \
   /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeRevol.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeSphere.hxx \
   /usr/include/opencascade/BRepPrimAPI_MakeSweep.hxx \
+  /usr/include/opencascade/BRepPrimAPI_MakeTorus.hxx \
+  /usr/include/opencascade/BRepPrim_Builder.hxx \
+  /usr/include/opencascade/BRepPrim_Builder.lxx \
+  /usr/include/opencascade/BRepPrim_Cone.hxx \
+  /usr/include/opencascade/BRepPrim_Cylinder.hxx \
+  /usr/include/opencascade/BRepPrim_Direction.hxx \
+  /usr/include/opencascade/BRepPrim_GWedge.hxx \
+  /usr/include/opencascade/BRepPrim_OneAxis.hxx \
+  /usr/include/opencascade/BRepPrim_Revolution.hxx \
+  /usr/include/opencascade/BRepPrim_Sphere.hxx \
+  /usr/include/opencascade/BRepPrim_Torus.hxx \
+  /usr/include/opencascade/BRepPrim_Wedge.hxx \
   /usr/include/opencascade/BRepSweep_Builder.hxx \
   /usr/include/opencascade/BRepSweep_Builder.lxx \
   /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx \
   /usr/include/opencascade/BRepSweep_Prism.hxx \
+  /usr/include/opencascade/BRepSweep_Revol.hxx \
+  /usr/include/opencascade/BRepSweep_Rotation.hxx \
   /usr/include/opencascade/BRepSweep_Tool.hxx \
   /usr/include/opencascade/BRepSweep_Translation.hxx \
   /usr/include/opencascade/BRepSweep_Trsf.hxx \
@@ -5161,6 +5183,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: /home/myungit/Documenti/pdfReade
   /usr/include/qt6/QtWidgets/QApplication \
   /usr/include/qt6/QtWidgets/QCheckBox \
   /usr/include/qt6/QtWidgets/QColorDialog \
+  /usr/include/qt6/QtWidgets/QComboBox \
   /usr/include/qt6/QtWidgets/QDialog \
   /usr/include/qt6/QtWidgets/QDialogButtonBox \
   /usr/include/qt6/QtWidgets/QDockWidget \
@@ -5188,6 +5211,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: /home/myungit/Documenti/pdfReade
   /usr/include/qt6/QtWidgets/qboxlayout.h \
   /usr/include/qt6/QtWidgets/qcheckbox.h \
   /usr/include/qt6/QtWidgets/qcolordialog.h \
+  /usr/include/qt6/QtWidgets/qcombobox.h \
   /usr/include/qt6/QtWidgets/qdialog.h \
   /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
   /usr/include/qt6/QtWidgets/qdockwidget.h \
@@ -5283,6 +5307,8 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtWidgets/qdialog.h:
 
+/usr/include/qt6/QtWidgets/qcombobox.h:
+
 /usr/include/qt6/QtWidgets/qcolordialog.h:
 
 /usr/include/qt6/QtWidgets/qcheckbox.h:
@@ -5305,6 +5331,8 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtWidgets/QInputDialog:
 
+/usr/include/qt6/QtWidgets/QComboBox:
+
 /usr/include/qt6/QtWidgets/QColorDialog:
 
 /usr/include/qt6/QtGui/qvalidator.h:
@@ -5320,8 +5348,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/qt6/QtGui/qpicture.h:
 
 /usr/include/qt6/QtGui/qpen.h:
-
-/usr/include/qt6/QtGui/qpainterpath.h:
 
 /usr/include/qt6/QtGui/qopenglext.h:
 
@@ -5385,8 +5411,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /home/myungit/Documenti/pdfReader_C/forgeCad2026_gui.cpp:
 
-/usr/include/qt6/QtWidgets/qwidget.h:
-
 /usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
 
 /usr/include/qt6/QtWidgets/qtwidgets-config.h:
@@ -5415,6 +5439,36 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtGui/qimage.h:
 
+/usr/include/qt6/QtGui/qguiapplication.h:
+
+/usr/include/qt6/QtGui/qfontvariableaxis.h:
+
+/usr/include/qt6/QtGui/qcursor.h:
+
+/usr/include/qt6/QtGui/qbitmap.h:
+
+/usr/include/qt6/QtGui/qaction.h:
+
+/usr/include/qt6/QtGui/QSurfaceFormat:
+
+/usr/include/qt6/QtCore/qvarlengtharray.h:
+
+/usr/include/qt6/QtCore/qvariant.h:
+
+/usr/include/qt6/QtCore/qtimezone.h:
+
+/usr/include/qt6/QtCore/qtformat_impl.h:
+
+/usr/include/qt6/QtCore/qtextstream.h:
+
+/usr/include/qt6/QtCore/qtaggedpointer.h:
+
+/usr/include/qt6/QtCore/qspan.h:
+
+/usr/include/qt6/QtCore/qsharedpointer_impl.h:
+
+/usr/include/qt6/QtCore/qsharedpointer.h:
+
 /usr/include/qt6/QtCore/qsysinfo.h:
 
 /usr/include/qt6/QtCore/qstringview.h:
@@ -5428,6 +5482,8 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/assert.h:
 
 /usr/include/qt6/QtCore/qstringconverter_base.h:
+
+/usr/include/opencascade/BRepPrim_Revolution.hxx:
 
 /usr/include/opencascade/BRepLib_MakeWire.hxx:
 
@@ -5481,12 +5537,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/BRepMesh_DegreeOfFreedom.hxx:
 
-/usr/include/qt6/QtCore/qarraydataops.h:
-
-/usr/include/qt6/QtGui/qtransform.h:
-
-/usr/include/opencascade/TopTools_Array2OfShape.hxx:
-
 /usr/include/opencascade/Standard_TypeMismatch.hxx:
 
 /usr/include/qt6/QtWidgets/qtabbar.h:
@@ -5494,6 +5544,10 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/BOPAlgo_Operation.hxx:
 
 /usr/include/qt6/QtCore/q20bit.h:
+
+/usr/include/qt6/QtCore/qarraydataops.h:
+
+/usr/include/opencascade/BRepPrimAPI_MakeBox.hxx:
 
 /usr/include/qt6/QtCore/QVector:
 
@@ -5593,8 +5647,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/IntCurveSurface_IntersectionPoint.hxx:
 
-/usr/include/qt6/QtGui/qcursor.h:
-
 /usr/include/opencascade/Standard_PCharacter.hxx:
 
 /usr/include/stdc-predef.h:
@@ -5644,6 +5696,10 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/Standard_DefineException.hxx:
 
 /usr/include/opencascade/Standard_DefineAlloc.hxx:
+
+/usr/include/qt6/QtGui/qfont.h:
+
+/usr/include/c++/16/bits/new_throw.h:
 
 /opt/cuda/targets/x86_64-linux/include/device_types.h:
 
@@ -5698,6 +5754,8 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/NCollection_BaseAllocator.hxx:
 
 /usr/include/opencascade/gp_Mat.hxx:
+
+/usr/include/opencascade/BRepPrimAPI_MakeOneAxis.hxx:
 
 /usr/include/opencascade/TColStd_SequenceOfReal.hxx:
 
@@ -5973,6 +6031,10 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qcoreapplication_platform.h:
 
+/usr/include/qt6/QtGui/qfontinfo.h:
+
+/usr/include/c++/16/istream:
+
 /usr/include/c++/16/bits/allocator.h:
 
 /usr/include/c++/16/pstl/execution_defs.h:
@@ -6075,7 +6137,13 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/NCollection_IndexedIterator.hxx:
 
-/usr/include/bits/flt-eval-method.h:
+/usr/include/qt6/QtWidgets/qapplication.h:
+
+/usr/include/qt6/QtGui/qicon.h:
+
+/usr/include/opencascade/Standard_IStream.hxx:
+
+/usr/include/bits/types/FILE.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -6096,8 +6164,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/BRepAlgoAPI_Common.hxx:
 
 /usr/include/bits/stdio_lim.h:
-
-/usr/include/qt6/QtCore/qtimezone.h:
 
 /usr/include/qt6/QtGui/qbrush.h:
 
@@ -6138,6 +6204,8 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/linux/close_range.h:
+
+/usr/include/opencascade/BRepPrim_Builder.lxx:
 
 /usr/include/c++/16/locale:
 
@@ -6299,6 +6367,12 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/Standard_OutOfRange.hxx:
 
+/usr/include/qt6/QtGui/qtransform.h:
+
+/usr/include/opencascade/TopTools_Array2OfShape.hxx:
+
+/usr/include/opencascade/BRepPrim_Builder.hxx:
+
 /usr/include/opencascade/NCollection_BaseList.hxx:
 
 /usr/include/qt6/QtCore/qanystringview.h:
@@ -6325,11 +6399,13 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/bits/waitstatus.h:
 
+/usr/include/qt6/QtGui/qguiapplication_platform.h:
+
+/usr/include/bits/wchar.h:
+
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/16/numeric:
-
-/usr/include/qt6/QtCore/qtformat_impl.h:
 
 /usr/include/opencascade/BSplCLib_CacheParams.hxx:
 
@@ -6451,8 +6527,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qcoreevent.h:
 
-/usr/include/qt6/QtGui/qbitmap.h:
-
 /usr/include/c++/16/bits/monostate.h:
 
 /usr/include/qt6/QtWidgets/qtabwidget.h:
@@ -6565,7 +6639,7 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/16/bits/stl_algobase.h:
 
-/usr/include/qt6/QtCore/qvarlengtharray.h:
+/usr/include/opencascade/BRepPrimAPI_MakeRevol.hxx:
 
 /usr/include/c++/16/bits/uses_allocator.h:
 
@@ -6637,8 +6711,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/16/limits:
 
-/opt/cuda/targets/x86_64-linux/include/builtin_types.h:
-
 /usr/include/opencascade/NCollection_Handle.hxx:
 
 /usr/include/qt6/QtCore/qshareddata_impl.h:
@@ -6662,6 +6734,10 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/c++/16/bits/stream_iterator.h:
 
 /usr/include/opencascade/Geom2dEvaluator_Curve.hxx:
+
+/usr/include/qt6/QtWidgets/qwidget.h:
+
+/usr/include/opencascade/BRepPrimAPI_MakeCylinder.hxx:
 
 /usr/include/c++/16/ctime:
 
@@ -6779,6 +6855,8 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qtcore-config.h:
 
+/usr/include/opencascade/BRepPrim_Wedge.hxx:
+
 /usr/include/qt6/QtCore/qtcoreexports.h:
 
 /usr/include/qt6/QtWidgets/qabstractspinbox.h:
@@ -6802,8 +6880,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/c++/16/ratio:
 
 /usr/include/qt6/QtCore/qtnoop.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h:
 
 /usr/include/c++/16/bits/specfun.h:
 
@@ -6863,10 +6939,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/unistd.h:
 
-/usr/include/c++/16/bits/new_throw.h:
-
-/usr/include/qt6/QtGui/qfont.h:
-
 /usr/include/stdint.h:
 
 /usr/include/c++/16/bits/fs_dir.h:
@@ -6886,8 +6958,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/c++/16/initializer_list:
 
 /usr/include/opencascade/BRepMesh_PairOfIndex.hxx:
-
-/usr/include/sys/types.h:
 
 /usr/include/c++/16/bits/random.h:
 
@@ -6924,6 +6994,10 @@ forgecad_autogen/mocs_compilation.cpp:
 /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h:
 
 /usr/include/opencascade/NCollection_UBTreeFiller.hxx:
+
+/home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h:
+
+/home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h:
 
 /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h:
 
@@ -6968,10 +7042,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/BOPAlgo_GlueEnum.hxx:
 
 /usr/include/opencascade/BRepAdaptor_Curve.hxx:
-
-/usr/include/c++/16/istream:
-
-/usr/include/qt6/QtGui/qfontinfo.h:
 
 /usr/include/c++/16/cstdint:
 
@@ -7045,8 +7115,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/BRepLib_WireError.hxx:
 
-/usr/include/opencascade/BRep_TFace.hxx:
-
 /usr/include/opencascade/Message_Msg.hxx:
 
 /usr/include/opencascade/TColStd_Array2OfBoolean.hxx:
@@ -7055,21 +7123,63 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/BRepMesh_Triangle.hxx:
 
-/usr/include/qt6/QtWidgets/qapplication.h:
-
-/usr/include/opencascade/Standard_IStream.hxx:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/qt6/QtGui/qicon.h:
-
 /usr/include/opencascade/Geom_BSplineSurface.hxx:
 
 /usr/include/opencascade/BRepMesh_Vertex.hxx:
 
+/usr/include/opencascade/BRepPrimAPI_MakeCone.hxx:
+
 /usr/include/bits/pthreadtypes.h:
 
 /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx:
+
+/usr/include/qt6/QtGui/qpainterpath.h:
+
+/usr/include/opencascade/BRepPrimAPI_MakeSphere.hxx:
+
+/usr/include/opencascade/TopoDS_TVertex.hxx:
+
+/usr/include/opencascade/BRepPrimAPI_MakeTorus.hxx:
+
+/usr/include/opencascade/BRep_TFace.hxx:
+
+/usr/include/opencascade/BRepPrim_Cone.hxx:
+
+/usr/include/opencascade/BRepPrim_Cylinder.hxx:
+
+/usr/include/opencascade/BRepPrim_Direction.hxx:
+
+/usr/include/c++/16/bits/unordered_set.h:
+
+/opt/cuda/targets/x86_64-linux/include/builtin_types.h:
+
+/usr/include/opencascade/BRepPrim_GWedge.hxx:
+
+/usr/include/sys/types.h:
+
+/usr/include/opencascade/BRepPrim_OneAxis.hxx:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/opencascade/BRepSweep_Prism.hxx:
+
+/usr/include/opencascade/BRepPrim_Sphere.hxx:
+
+/usr/include/qt6/QtCore/qvector.h:
+
+/usr/include/opencascade/CPnts_RealFunction.hxx:
+
+/usr/include/opencascade/TopLoc_SListOfItemLocation.hxx:
+
+/usr/include/opencascade/Geom_SphericalSurface.hxx:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h:
+
+/usr/include/opencascade/BRepPrim_Torus.hxx:
+
+/usr/include/opencascade/gp_Ax2.hxx:
+
+/opt/cuda/targets/x86_64-linux/include/crt/sm_90_rt.h:
 
 /usr/include/opencascade/BRepSweep_Builder.lxx:
 
@@ -7079,9 +7189,15 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx:
 
-/usr/include/bits/getopt_core.h:
+/usr/include/opencascade/BRepSweep_Revol.hxx:
 
-/usr/include/opencascade/BRepSweep_Prism.hxx:
+/usr/include/c++/16/bits/enable_special_members.h:
+
+/usr/include/opencascade/NCollection_IndexedMap.hxx:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/opencascade/BRepSweep_Rotation.hxx:
 
 /usr/include/opencascade/BRepSweep_Tool.hxx:
 
@@ -7243,8 +7359,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qbasictimer.h:
 
-/usr/include/qt6/QtGui/qfontvariableaxis.h:
-
 /usr/include/opencascade/StdFail_NotDone.hxx:
 
 /usr/include/opencascade/Message_Msg.lxx:
@@ -7263,6 +7377,10 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/Message_StatusType.hxx:
 
+/usr/include/opencascade/NCollection_LocalArray.hxx:
+
+/usr/include/opencascade/NCollection_AliasedArray.hxx:
+
 /usr/include/opencascade/NCollection_Vec2.hxx:
 
 /usr/include/opencascade/NCollection_BasePointerVector.hxx:
@@ -7280,14 +7398,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/NCollection_EBTree.hxx:
 
 /usr/include/opencascade/NCollection_IncAllocator.hxx:
-
-/usr/include/c++/16/bits/enable_special_members.h:
-
-/usr/include/opencascade/NCollection_IndexedMap.hxx:
-
-/usr/include/opencascade/NCollection_AliasedArray.hxx:
-
-/usr/include/opencascade/NCollection_LocalArray.hxx:
 
 /usr/include/opencascade/NCollection_Map.hxx:
 
@@ -7459,8 +7569,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/opencascade/TopoDS_TSolid.hxx:
 
-/usr/include/opencascade/TopoDS_TVertex.hxx:
-
 /usr/include/opencascade/TopoDS_TWire.hxx:
 
 /usr/include/qt6/QtCore/qconstructormacros.h:
@@ -7483,8 +7591,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /opt/cuda/targets/x86_64-linux/include/sm_32_intrinsics.h:
 
-/usr/include/qt6/QtCore/qspan.h:
-
 /home/myungit/Documenti/pdfReader_C/cad_types.h:
 
 /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h:
@@ -7492,8 +7598,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/NCollection_Shared.hxx:
 
 /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h:
-
-/home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h:
 
 /usr/include/qt6/QtWidgets/QStatusBar:
 
@@ -7514,14 +7618,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /usr/include/opencascade/Extrema_SequenceOfPOnSurf.hxx:
 
 /usr/include/opencascade/CPnts_MyRootFunction.lxx:
-
-/usr/include/qt6/QtCore/qvector.h:
-
-/usr/include/opencascade/CPnts_RealFunction.hxx:
-
-/usr/include/opencascade/TopLoc_SListOfItemLocation.hxx:
-
-/usr/include/opencascade/Geom_SphericalSurface.hxx:
 
 /usr/include/opencascade/Extrema_ExtFlag.hxx:
 
@@ -7575,8 +7671,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /opt/cuda/targets/x86_64-linux/include/crt/common_functions.h:
 
-/usr/include/qt6/QtCore/qsharedpointer_impl.h:
-
 /opt/cuda/targets/x86_64-linux/include/crt/cudacc_ext.h:
 
 /usr/include/opencascade/BRepMesh_Circle.hxx:
@@ -7604,10 +7698,6 @@ forgecad_autogen/mocs_compilation.cpp:
 /opt/cuda/targets/x86_64-linux/include/crt/sm_100_rt.hpp:
 
 /opt/cuda/targets/x86_64-linux/include/crt/sm_80_rt.h:
-
-/usr/include/opencascade/gp_Ax2.hxx:
-
-/opt/cuda/targets/x86_64-linux/include/crt/sm_90_rt.h:
 
 /opt/cuda/targets/x86_64-linux/include/cuda_device_runtime_api.h:
 
@@ -7665,8 +7755,6 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/16/bits/stl_tree.h:
 
-/usr/include/c++/16/bits/unordered_set.h:
-
 /usr/include/c++/16/cassert:
 
 /usr/include/c++/16/map:
@@ -7713,22 +7801,4 @@ forgecad_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qobjectdefs_impl.h:
 
-/usr/include/qt6/QtGui/QSurfaceFormat:
-
 /usr/include/qt6/QtCore/qscopedpointer.h:
-
-/usr/include/qt6/QtCore/qsharedpointer.h:
-
-/usr/include/qt6/QtCore/qtaggedpointer.h:
-
-/usr/include/qt6/QtCore/qtextstream.h:
-
-/usr/include/qt6/QtCore/qvariant.h:
-
-/usr/include/qt6/QtGui/qaction.h:
-
-/usr/include/qt6/QtGui/qguiapplication.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/qt6/QtGui/qguiapplication_platform.h:

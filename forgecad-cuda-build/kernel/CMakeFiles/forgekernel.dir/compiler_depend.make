@@ -639,8 +639,10 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_map.h \
   /usr/include/c++/16/bits/stl_multimap.h \
+  /usr/include/c++/16/bits/stl_multiset.h \
   /usr/include/c++/16/bits/stl_pair.h \
   /usr/include/c++/16/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/16/bits/stl_set.h \
   /usr/include/c++/16/bits/stl_tempbuf.h \
   /usr/include/c++/16/bits/stl_tree.h \
   /usr/include/c++/16/bits/stl_uninitialized.h \
@@ -686,6 +688,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/pstl/glue_algorithm_defs.h \
   /usr/include/c++/16/pstl/glue_memory_defs.h \
   /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/set \
   /usr/include/c++/16/stdexcept \
   /usr/include/c++/16/string \
   /usr/include/c++/16/string_view \
@@ -1439,6 +1442,8 @@ kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o: /home/myungit/Documenti/pdf
   /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
@@ -5044,11 +5049,15 @@ kernel/CMakeFiles/forgekernel.dir/fk_profile.cpp.o: /home/myungit/Documenti/pdfR
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
 
 kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.cpp \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_classify.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
@@ -5136,6 +5145,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/array \
   /usr/include/c++/16/backward/auto_ptr.h \
   /usr/include/c++/16/backward/binders.h \
   /usr/include/c++/16/bit \
@@ -5153,12 +5163,16 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/bits/cpp_type_traits.h \
   /usr/include/c++/16/bits/cxxabi_forced.h \
   /usr/include/c++/16/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16/bits/enable_special_members.h \
   /usr/include/c++/16/bits/erase_if.h \
   /usr/include/c++/16/bits/exception.h \
   /usr/include/c++/16/bits/exception_defines.h \
   /usr/include/c++/16/bits/exception_ptr.h \
+  /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/hashtable.h \
+  /usr/include/c++/16/bits/hashtable_policy.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/localefwd.h \
   /usr/include/c++/16/bits/memory_resource.h \
@@ -5168,6 +5182,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/bits/new_allocator.h \
   /usr/include/c++/16/bits/new_except.h \
   /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/node_handle.h \
   /usr/include/c++/16/bits/ostream_insert.h \
   /usr/include/c++/16/bits/postypes.h \
   /usr/include/c++/16/bits/predefined_ops.h \
@@ -5180,6 +5195,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/bits/shared_ptr_base.h \
   /usr/include/c++/16/bits/specfun.h \
   /usr/include/c++/16/bits/std_abs.h \
+  /usr/include/c++/16/bits/std_function.h \
   /usr/include/c++/16/bits/stdexcept_except.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
@@ -5198,6 +5214,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/unique_ptr.h \
+  /usr/include/c++/16/bits/unordered_map.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -5207,6 +5224,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/cerrno \
   /usr/include/c++/16/clocale \
   /usr/include/c++/16/cmath \
+  /usr/include/c++/16/compare \
   /usr/include/c++/16/concepts \
   /usr/include/c++/16/cstddef \
   /usr/include/c++/16/cstdio \
@@ -5222,6 +5240,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/ext/numeric_traits.h \
   /usr/include/c++/16/ext/string_conversions.h \
   /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/functional \
   /usr/include/c++/16/initializer_list \
   /usr/include/c++/16/iosfwd \
   /usr/include/c++/16/limits \
@@ -5248,6 +5267,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: /home/myungit/Documenti/pdfR
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
+  /usr/include/c++/16/unordered_map \
   /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -5784,6 +5804,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
+  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h \
   /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
   /usr/include/alloca.h \
@@ -5889,12 +5910,16 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /usr/include/c++/16/bits/cxxabi_forced.h \
   /usr/include/c++/16/bits/cxxabi_init_exception.h \
   /usr/include/c++/16/bits/deque.tcc \
+  /usr/include/c++/16/bits/enable_special_members.h \
   /usr/include/c++/16/bits/erase_if.h \
   /usr/include/c++/16/bits/exception.h \
   /usr/include/c++/16/bits/exception_defines.h \
   /usr/include/c++/16/bits/exception_ptr.h \
+  /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/hashtable.h \
+  /usr/include/c++/16/bits/hashtable_policy.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/localefwd.h \
   /usr/include/c++/16/bits/memory_resource.h \
@@ -5917,6 +5942,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /usr/include/c++/16/bits/shared_ptr_base.h \
   /usr/include/c++/16/bits/specfun.h \
   /usr/include/c++/16/bits/std_abs.h \
+  /usr/include/c++/16/bits/std_function.h \
   /usr/include/c++/16/bits/stdexcept_except.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
@@ -5942,6 +5968,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/uniform_int_dist.h \
   /usr/include/c++/16/bits/unique_ptr.h \
+  /usr/include/c++/16/bits/unordered_map.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -5968,6 +5995,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /usr/include/c++/16/ext/numeric_traits.h \
   /usr/include/c++/16/ext/string_conversions.h \
   /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/functional \
   /usr/include/c++/16/initializer_list \
   /usr/include/c++/16/iosfwd \
   /usr/include/c++/16/limits \
@@ -5996,6 +6024,7 @@ kernel/CMakeFiles/forgekernel.dir/fk_tessellate.cpp.o: /home/myungit/Documenti/p
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
+  /usr/include/c++/16/unordered_map \
   /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \

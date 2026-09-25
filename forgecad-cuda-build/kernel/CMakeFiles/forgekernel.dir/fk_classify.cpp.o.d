@@ -180,4 +180,6 @@ kernel/CMakeFiles/forgekernel.dir/fk_classify.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_nurbs.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h

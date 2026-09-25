@@ -175,7 +175,9 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: \
  /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/array \
  /usr/include/c++/16/compare /usr/include/c++/16/map \
  /usr/include/c++/16/bits/stl_tree.h /usr/include/c++/16/bits/stl_map.h \
- /usr/include/c++/16/bits/stl_multimap.h \
+ /usr/include/c++/16/bits/stl_multimap.h /usr/include/c++/16/set \
+ /usr/include/c++/16/bits/stl_set.h \
+ /usr/include/c++/16/bits/stl_multiset.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_classify.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \

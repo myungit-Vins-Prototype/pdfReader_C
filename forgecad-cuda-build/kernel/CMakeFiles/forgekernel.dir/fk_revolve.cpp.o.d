@@ -163,7 +163,19 @@ kernel/CMakeFiles/forgekernel.dir/fk_revolve.cpp.o: \
  /usr/include/c++/16/bits/stdexcept_except.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_classify.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
+ /usr/include/c++/16/functional /usr/include/c++/16/bits/std_function.h \
+ /usr/include/c++/16/bits/functexcept.h /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/array \
+ /usr/include/c++/16/compare \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface_algo.h

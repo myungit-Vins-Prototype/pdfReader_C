@@ -611,7 +611,9 @@ CMakeFiles/forgecad.dir/cad_forge.cpp.o
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h
@@ -2034,12 +2036,32 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o
  /usr/include/opencascade/BRepMesh_PairOfIndex.hxx
  /usr/include/opencascade/BRepMesh_Triangle.hxx
  /usr/include/opencascade/BRepMesh_Vertex.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeBox.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeCone.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeCylinder.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeOneAxis.hxx
  /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeRevol.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeSphere.hxx
  /usr/include/opencascade/BRepPrimAPI_MakeSweep.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeTorus.hxx
+ /usr/include/opencascade/BRepPrim_Builder.hxx
+ /usr/include/opencascade/BRepPrim_Builder.lxx
+ /usr/include/opencascade/BRepPrim_Cone.hxx
+ /usr/include/opencascade/BRepPrim_Cylinder.hxx
+ /usr/include/opencascade/BRepPrim_Direction.hxx
+ /usr/include/opencascade/BRepPrim_GWedge.hxx
+ /usr/include/opencascade/BRepPrim_OneAxis.hxx
+ /usr/include/opencascade/BRepPrim_Revolution.hxx
+ /usr/include/opencascade/BRepPrim_Sphere.hxx
+ /usr/include/opencascade/BRepPrim_Torus.hxx
+ /usr/include/opencascade/BRepPrim_Wedge.hxx
  /usr/include/opencascade/BRepSweep_Builder.hxx
  /usr/include/opencascade/BRepSweep_Builder.lxx
  /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx
  /usr/include/opencascade/BRepSweep_Prism.hxx
+ /usr/include/opencascade/BRepSweep_Revol.hxx
+ /usr/include/opencascade/BRepSweep_Rotation.hxx
  /usr/include/opencascade/BRepSweep_Tool.hxx
  /usr/include/opencascade/BRepSweep_Translation.hxx
  /usr/include/opencascade/BRepSweep_Trsf.hxx
@@ -5170,6 +5192,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o
  /usr/include/qt6/QtWidgets/QApplication
  /usr/include/qt6/QtWidgets/QCheckBox
  /usr/include/qt6/QtWidgets/QColorDialog
+ /usr/include/qt6/QtWidgets/QComboBox
  /usr/include/qt6/QtWidgets/QDialog
  /usr/include/qt6/QtWidgets/QDialogButtonBox
  /usr/include/qt6/QtWidgets/QDockWidget
@@ -5197,6 +5220,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o
  /usr/include/qt6/QtWidgets/qboxlayout.h
  /usr/include/qt6/QtWidgets/qcheckbox.h
  /usr/include/qt6/QtWidgets/qcolordialog.h
+ /usr/include/qt6/QtWidgets/qcombobox.h
  /usr/include/qt6/QtWidgets/qdialog.h
  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h
  /usr/include/qt6/QtWidgets/qdockwidget.h

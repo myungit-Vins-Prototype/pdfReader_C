@@ -478,6 +478,19 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/QColorDialog \
  /usr/include/qt6/QtWidgets/qcolordialog.h \
  /usr/include/qt6/QtWidgets/qdialog.h \
+ /usr/include/qt6/QtWidgets/QComboBox \
+ /usr/include/qt6/QtWidgets/qcombobox.h \
+ /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt6/QtWidgets/qstyleoption.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h \
+ /usr/include/qt6/QtCore/qregularexpression.h \
+ /usr/include/qt6/QtWidgets/qslider.h \
+ /usr/include/qt6/QtWidgets/qabstractslider.h \
+ /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
+ /usr/include/qt6/QtWidgets/qrubberband.h \
+ /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtGui/QContextMenuEvent /usr/include/qt6/QtGui/qevent.h \
  /usr/include/qt6/QtCore/qiodevice.h /usr/include/qt6/QtCore/qurl.h \
  /usr/include/qt6/QtGui/qeventpoint.h /usr/include/qt6/QtGui/qvector2d.h \
@@ -501,7 +514,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/QInputDialog \
  /usr/include/qt6/QtWidgets/qinputdialog.h \
  /usr/include/qt6/QtWidgets/qlineedit.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextdocument.h \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/QKeyEvent \
@@ -535,9 +548,6 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtCore/QSettings /usr/include/qt6/QtCore/qsettings.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
- /usr/include/qt6/QtWidgets/qabstractspinbox.h \
- /usr/include/qt6/QtGui/qvalidator.h \
- /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtWidgets/QStatusBar \
  /usr/include/qt6/QtWidgets/qstatusbar.h \
  /usr/include/qt6/QtCore/QStringList /usr/include/qt6/QtWidgets/QToolBar \
@@ -547,13 +557,6 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/qtreeview.h \
  /usr/include/qt6/QtWidgets/qabstractitemview.h \
  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qitemselectionmodel.h \
- /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
- /usr/include/qt6/QtWidgets/qstyleoption.h \
- /usr/include/qt6/QtWidgets/qslider.h \
- /usr/include/qt6/QtWidgets/qabstractslider.h \
- /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
- /usr/include/qt6/QtWidgets/qrubberband.h \
  /usr/include/qt6/QtWidgets/qtreewidgetitemiterator.h \
  /usr/include/qt6/QtGui/QVector2D /usr/include/qt6/QtGui/QWheelEvent
