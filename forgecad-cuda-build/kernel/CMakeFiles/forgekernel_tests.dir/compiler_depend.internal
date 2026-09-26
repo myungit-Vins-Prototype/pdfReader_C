@@ -696,11 +696,13 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.o
 kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /home/myungit/Documenti/pdfReader_C/kernel/tests/test_blend.cpp
  /home/myungit/Documenti/pdfReader_C/kernel/fk_blend.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_blend_loop.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h
  /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h
@@ -833,6 +835,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/c++/16/bits/cpp_type_traits.h
  /usr/include/c++/16/bits/cxxabi_forced.h
  /usr/include/c++/16/bits/cxxabi_init_exception.h
+ /usr/include/c++/16/bits/deque.tcc
  /usr/include/c++/16/bits/enable_special_members.h
  /usr/include/c++/16/bits/erase_if.h
  /usr/include/c++/16/bits/exception.h
@@ -890,6 +893,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/c++/16/bits/stl_algobase.h
  /usr/include/c++/16/bits/stl_bvector.h
  /usr/include/c++/16/bits/stl_construct.h
+ /usr/include/c++/16/bits/stl_deque.h
  /usr/include/c++/16/bits/stl_function.h
  /usr/include/c++/16/bits/stl_heap.h
  /usr/include/c++/16/bits/stl_iterator.h
@@ -897,6 +901,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/c++/16/bits/stl_iterator_base_types.h
  /usr/include/c++/16/bits/stl_numeric.h
  /usr/include/c++/16/bits/stl_pair.h
+ /usr/include/c++/16/bits/stl_queue.h
  /usr/include/c++/16/bits/stl_raw_storage_iter.h
  /usr/include/c++/16/bits/stl_relops.h
  /usr/include/c++/16/bits/stl_tempbuf.h
@@ -932,6 +937,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/c++/16/cwctype
  /usr/include/c++/16/debug/assertions.h
  /usr/include/c++/16/debug/debug.h
+ /usr/include/c++/16/deque
  /usr/include/c++/16/exception
  /usr/include/c++/16/ext/aligned_buffer.h
  /usr/include/c++/16/ext/alloc_traits.h
@@ -960,6 +966,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/c++/16/pstl/glue_memory_defs.h
  /usr/include/c++/16/pstl/glue_numeric_defs.h
  /usr/include/c++/16/pstl/pstl_config.h
+ /usr/include/c++/16/queue
  /usr/include/c++/16/random
  /usr/include/c++/16/sstream
  /usr/include/c++/16/stdexcept
@@ -1054,12 +1061,30 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/BRepLib_MakeWire.hxx
  /usr/include/opencascade/BRepLib_ShapeModification.hxx
  /usr/include/opencascade/BRepLib_WireError.hxx
+ /usr/include/opencascade/BRepMesh_Circle.hxx
+ /usr/include/opencascade/BRepMesh_DegreeOfFreedom.hxx
+ /usr/include/opencascade/BRepMesh_DiscretRoot.hxx
+ /usr/include/opencascade/BRepMesh_Edge.hxx
+ /usr/include/opencascade/BRepMesh_IncrementalMesh.hxx
+ /usr/include/opencascade/BRepMesh_OrientedEdge.hxx
+ /usr/include/opencascade/BRepMesh_PairOfIndex.hxx
+ /usr/include/opencascade/BRepMesh_Triangle.hxx
+ /usr/include/opencascade/BRepMesh_Vertex.hxx
  /usr/include/opencascade/BRepPrimAPI_MakeBox.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakePrism.hxx
+ /usr/include/opencascade/BRepPrimAPI_MakeSweep.hxx
  /usr/include/opencascade/BRepPrim_Builder.hxx
  /usr/include/opencascade/BRepPrim_Builder.lxx
  /usr/include/opencascade/BRepPrim_Direction.hxx
  /usr/include/opencascade/BRepPrim_GWedge.hxx
  /usr/include/opencascade/BRepPrim_Wedge.hxx
+ /usr/include/opencascade/BRepSweep_Builder.hxx
+ /usr/include/opencascade/BRepSweep_Builder.lxx
+ /usr/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx
+ /usr/include/opencascade/BRepSweep_Prism.hxx
+ /usr/include/opencascade/BRepSweep_Tool.hxx
+ /usr/include/opencascade/BRepSweep_Translation.hxx
+ /usr/include/opencascade/BRepSweep_Trsf.hxx
  /usr/include/opencascade/BRep_Builder.hxx
  /usr/include/opencascade/BRep_Builder.lxx
  /usr/include/opencascade/BRep_ListOfPointRepresentation.hxx
@@ -1079,7 +1104,10 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/BSplSLib_Cache.hxx
  /usr/include/opencascade/BlendFunc_SectionShape.hxx
  /usr/include/opencascade/Bnd_Array1OfBox.hxx
+ /usr/include/opencascade/Bnd_B2d.hxx
+ /usr/include/opencascade/Bnd_B2x.lxx
  /usr/include/opencascade/Bnd_Box.hxx
+ /usr/include/opencascade/Bnd_Box2d.hxx
  /usr/include/opencascade/ChFi3d_Builder.hxx
  /usr/include/opencascade/ChFi3d_ChBuilder.hxx
  /usr/include/opencascade/ChFi3d_FilBuilder.hxx
@@ -1134,15 +1162,32 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/Geom_Ellipse.hxx
  /usr/include/opencascade/Geom_Geometry.hxx
  /usr/include/opencascade/Geom_Surface.hxx
+ /usr/include/opencascade/IMeshData_Model.hxx
+ /usr/include/opencascade/IMeshData_ParametersListArrayAdaptor.hxx
+ /usr/include/opencascade/IMeshData_Shape.hxx
+ /usr/include/opencascade/IMeshData_Types.hxx
+ /usr/include/opencascade/IMeshTools_Context.hxx
+ /usr/include/opencascade/IMeshTools_MeshAlgoType.hxx
+ /usr/include/opencascade/IMeshTools_ModelAlgo.hxx
+ /usr/include/opencascade/IMeshTools_ModelBuilder.hxx
+ /usr/include/opencascade/IMeshTools_Parameters.hxx
  /usr/include/opencascade/Message.hxx
+ /usr/include/opencascade/Message_Algorithm.hxx
+ /usr/include/opencascade/Message_Algorithm.lxx
+ /usr/include/opencascade/Message_ExecStatus.hxx
  /usr/include/opencascade/Message_Gravity.hxx
+ /usr/include/opencascade/Message_HArrayOfMsg.hxx
  /usr/include/opencascade/Message_Messenger.hxx
  /usr/include/opencascade/Message_MetricType.hxx
+ /usr/include/opencascade/Message_Msg.hxx
+ /usr/include/opencascade/Message_Msg.lxx
  /usr/include/opencascade/Message_Printer.hxx
  /usr/include/opencascade/Message_ProgressIndicator.hxx
  /usr/include/opencascade/Message_ProgressRange.hxx
  /usr/include/opencascade/Message_ProgressScope.hxx
  /usr/include/opencascade/Message_SequenceOfPrinters.hxx
+ /usr/include/opencascade/Message_Status.hxx
+ /usr/include/opencascade/Message_StatusType.hxx
  /usr/include/opencascade/NCollection_AliasedArray.hxx
  /usr/include/opencascade/NCollection_Allocator.hxx
  /usr/include/opencascade/NCollection_Array1.hxx
@@ -1152,6 +1197,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/NCollection_BaseMap.hxx
  /usr/include/opencascade/NCollection_BasePointerVector.hxx
  /usr/include/opencascade/NCollection_BaseSequence.hxx
+ /usr/include/opencascade/NCollection_CellFilter.hxx
  /usr/include/opencascade/NCollection_DataMap.hxx
  /usr/include/opencascade/NCollection_DefaultHasher.hxx
  /usr/include/opencascade/NCollection_DefineAlloc.hxx
@@ -1160,12 +1206,16 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/NCollection_DefineHSequence.hxx
  /usr/include/opencascade/NCollection_DefineHasher.hxx
  /usr/include/opencascade/NCollection_DynamicArray.hxx
+ /usr/include/opencascade/NCollection_EBTree.hxx
+ /usr/include/opencascade/NCollection_Handle.hxx
+ /usr/include/opencascade/NCollection_IncAllocator.hxx
  /usr/include/opencascade/NCollection_IndexedDataMap.hxx
  /usr/include/opencascade/NCollection_IndexedIterator.hxx
  /usr/include/opencascade/NCollection_IndexedMap.hxx
  /usr/include/opencascade/NCollection_Iterator.hxx
  /usr/include/opencascade/NCollection_List.hxx
  /usr/include/opencascade/NCollection_ListNode.hxx
+ /usr/include/opencascade/NCollection_LocalArray.hxx
  /usr/include/opencascade/NCollection_Map.hxx
  /usr/include/opencascade/NCollection_MapAlgo.hxx
  /usr/include/opencascade/NCollection_Mat3.hxx
@@ -1177,6 +1227,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/NCollection_TListIterator.hxx
  /usr/include/opencascade/NCollection_TListNode.hxx
  /usr/include/opencascade/NCollection_UBTree.hxx
+ /usr/include/opencascade/NCollection_UBTreeFiller.hxx
  /usr/include/opencascade/NCollection_Vec2.hxx
  /usr/include/opencascade/NCollection_Vec3.hxx
  /usr/include/opencascade/NCollection_Vec4.hxx
@@ -1246,13 +1297,24 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/Standard_TypeDef.hxx
  /usr/include/opencascade/Standard_TypeMismatch.hxx
  /usr/include/opencascade/StdFail_NotDone.hxx
+ /usr/include/opencascade/Sweep_NumShape.hxx
+ /usr/include/opencascade/Sweep_NumShape.lxx
+ /usr/include/opencascade/Sweep_NumShapeTool.hxx
  /usr/include/opencascade/TColStd_Array1OfInteger.hxx
  /usr/include/opencascade/TColStd_Array1OfReal.hxx
+ /usr/include/opencascade/TColStd_Array1OfTransient.hxx
+ /usr/include/opencascade/TColStd_Array2OfBoolean.hxx
  /usr/include/opencascade/TColStd_Array2OfReal.hxx
  /usr/include/opencascade/TColStd_HArray1OfInteger.hxx
  /usr/include/opencascade/TColStd_HArray1OfReal.hxx
+ /usr/include/opencascade/TColStd_HArray1OfTransient.hxx
  /usr/include/opencascade/TColStd_HArray2OfReal.hxx
+ /usr/include/opencascade/TColStd_HSequenceOfHExtendedString.hxx
  /usr/include/opencascade/TColStd_ListOfInteger.hxx
+ /usr/include/opencascade/TColStd_MapIteratorOfPackedMapOfInteger.hxx
+ /usr/include/opencascade/TColStd_PackedMapOfInteger.hxx
+ /usr/include/opencascade/TColStd_SequenceOfHExtendedString.hxx
+ /usr/include/opencascade/TColStd_SequenceOfInteger.hxx
  /usr/include/opencascade/TColgp_Array1OfPnt.hxx
  /usr/include/opencascade/TColgp_Array1OfPnt2d.hxx
  /usr/include/opencascade/TColgp_Array1OfXYZ.hxx
@@ -1274,11 +1336,14 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/TopAbs_ShapeEnum.hxx
  /usr/include/opencascade/TopAbs_State.hxx
  /usr/include/opencascade/TopExp.hxx
+ /usr/include/opencascade/TopExp_Explorer.hxx
+ /usr/include/opencascade/TopExp_Stack.hxx
  /usr/include/opencascade/TopLoc_Datum3D.hxx
  /usr/include/opencascade/TopLoc_ItemLocation.hxx
  /usr/include/opencascade/TopLoc_Location.hxx
  /usr/include/opencascade/TopLoc_Location.lxx
  /usr/include/opencascade/TopLoc_SListOfItemLocation.hxx
+ /usr/include/opencascade/TopTools_Array2OfShape.hxx
  /usr/include/opencascade/TopTools_DataMapOfShapeListOfInteger.hxx
  /usr/include/opencascade/TopTools_DataMapOfShapeShape.hxx
  /usr/include/opencascade/TopTools_IndexedDataMapOfShapeListOfShape.hxx
@@ -1293,6 +1358,8 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
  /usr/include/opencascade/TopoDS_Compound.hxx
  /usr/include/opencascade/TopoDS_Edge.hxx
  /usr/include/opencascade/TopoDS_Face.hxx
+ /usr/include/opencascade/TopoDS_Iterator.hxx
+ /usr/include/opencascade/TopoDS_ListIteratorOfListOfShape.hxx
  /usr/include/opencascade/TopoDS_ListOfShape.hxx
  /usr/include/opencascade/TopoDS_Shape.hxx
  /usr/include/opencascade/TopoDS_Shell.hxx

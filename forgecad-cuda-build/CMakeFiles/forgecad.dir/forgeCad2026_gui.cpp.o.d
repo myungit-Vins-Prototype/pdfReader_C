@@ -330,20 +330,19 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
  /home/myungit/Documenti/pdfReader_C/cuda_support.h \
- /home/myungit/Documenti/pdfReader_C/cad_curve_solver.h \
- /usr/include/opencascade/Geom2d_Curve.hxx \
- /usr/include/opencascade/Standard.hxx \
- /usr/include/opencascade/Standard_DefineAlloc.hxx \
- /usr/include/opencascade/Standard_Integer.hxx \
- /usr/include/opencascade/Standard_Std.hxx \
- /usr/include/opencascade/Standard_TypeDef.hxx /usr/include/inttypes.h \
- /usr/include/opencascade/Standard_Macro.hxx \
- /usr/include/opencascade/Standard_Type.hxx \
+ /home/myungit/Documenti/pdfReader_C/cad_constraints.h \
+ /usr/include/qt6/QtCore/QPointF /usr/include/qt6/QtCore/QString \
+ /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h \
+ /home/myungit/Documenti/pdfReader_C/cad_types.h \
+ /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtCore/QPair \
+ /usr/include/qt6/QtGui/QVector3D /usr/include/qt6/QtGui/qvectornd.h \
+ /usr/include/opencascade/TopoDS_Shape.hxx \
  /usr/include/opencascade/Standard_Handle.hxx \
+ /usr/include/opencascade/Standard_Std.hxx \
  /usr/include/opencascade/Standard_Stream.hxx \
- /usr/include/c++/16/iostream /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/ios \
- /usr/include/c++/16/bits/basic_ios.h \
+ /usr/include/opencascade/Standard_Macro.hxx /usr/include/c++/16/iostream \
+ /usr/include/c++/16/ostream /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/ios /usr/include/c++/16/bits/basic_ios.h \
  /usr/include/c++/16/bits/locale_facets.h /usr/include/c++/16/cwctype \
  /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h \
@@ -366,6 +365,10 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/16/bits/fstream.tcc \
  /usr/include/opencascade/Standard_Transient.hxx \
+ /usr/include/opencascade/Standard.hxx \
+ /usr/include/opencascade/Standard_DefineAlloc.hxx \
+ /usr/include/opencascade/Standard_Integer.hxx \
+ /usr/include/opencascade/Standard_TypeDef.hxx /usr/include/inttypes.h \
  /usr/include/opencascade/Standard_PrimitiveTypes.hxx \
  /usr/include/opencascade/Standard_Boolean.hxx \
  /usr/include/opencascade/Standard_Real.hxx \
@@ -375,20 +378,12 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/Standard_CString.hxx \
  /usr/include/opencascade/Standard_HashUtils.hxx \
  /usr/include/opencascade/Standard_HashUtils.lxx \
- /usr/include/opencascade/Standard_OStream.hxx \
- /usr/include/c++/16/typeindex \
- /usr/include/opencascade/Geom2d_Geometry.hxx \
- /usr/include/opencascade/GeomAbs_Shape.hxx \
- /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h \
- /home/myungit/Documenti/pdfReader_C/cad_types.h \
- /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtCore/QPair \
- /usr/include/qt6/QtCore/QPointF /usr/include/qt6/QtCore/QString \
- /usr/include/qt6/QtGui/QVector3D /usr/include/qt6/QtGui/qvectornd.h \
- /usr/include/opencascade/TopoDS_Shape.hxx \
  /usr/include/opencascade/TopLoc_Location.hxx \
  /usr/include/opencascade/TopLoc_SListOfItemLocation.hxx \
+ /usr/include/opencascade/Standard_OStream.hxx \
  /usr/include/opencascade/TopLoc_Location.lxx \
  /usr/include/opencascade/TopLoc_Datum3D.hxx \
+ /usr/include/opencascade/Standard_Type.hxx /usr/include/c++/16/typeindex \
  /usr/include/opencascade/gp_Trsf.hxx \
  /usr/include/opencascade/gp_TrsfForm.hxx \
  /usr/include/opencascade/gp_Mat.hxx /usr/include/opencascade/gp.hxx \
@@ -443,6 +438,10 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/TopAbs_ShapeEnum.hxx \
  /usr/include/opencascade/TopAbs_State.hxx \
  /usr/include/opencascade/TopoDS_ListOfShape.hxx \
+ /home/myungit/Documenti/pdfReader_C/cad_curve_solver.h \
+ /usr/include/opencascade/Geom2d_Curve.hxx \
+ /usr/include/opencascade/Geom2d_Geometry.hxx \
+ /usr/include/opencascade/GeomAbs_Shape.hxx \
  /home/myungit/Documenti/pdfReader_C/cad_document_io.h \
  /home/myungit/Documenti/pdfReader_C/cad_export.h \
  /home/myungit/Documenti/pdfReader_C/cad_forge.h \
@@ -461,6 +460,64 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.h \
  /usr/include/qt6/QtCore/QSet \
  /home/myungit/Documenti/pdfReader_C/cad_snap.h \
+ /usr/include/opencascade/BRepBuilderAPI_Copy.hxx \
+ /usr/include/opencascade/BRepBuilderAPI_ModifyShape.hxx \
+ /usr/include/opencascade/BRepTools_Modifier.hxx \
+ /usr/include/opencascade/TopTools_DataMapOfShapeShape.hxx \
+ /usr/include/opencascade/TopTools_ShapeMapHasher.hxx \
+ /usr/include/opencascade/NCollection_DataMap.hxx \
+ /usr/include/opencascade/Message.hxx \
+ /usr/include/opencascade/Message_Messenger.hxx \
+ /usr/include/opencascade/Message_SequenceOfPrinters.hxx \
+ /usr/include/opencascade/Message_Printer.hxx \
+ /usr/include/opencascade/Message_Gravity.hxx \
+ /usr/include/opencascade/NCollection_Sequence.hxx \
+ /usr/include/opencascade/NCollection_BaseSequence.hxx \
+ /usr/include/opencascade/TCollection_HAsciiString.hxx \
+ /usr/include/opencascade/TCollection_HAsciiString.lxx \
+ /usr/include/opencascade/TCollection_HExtendedString.hxx \
+ /usr/include/opencascade/TCollection_ExtendedString.hxx \
+ /usr/include/opencascade/Standard_PExtCharacter.hxx \
+ /usr/include/opencascade/Message_MetricType.hxx \
+ /usr/include/opencascade/NCollection_Vector.hxx \
+ /usr/include/opencascade/NCollection_DynamicArray.hxx \
+ /usr/include/opencascade/NCollection_Allocator.hxx \
+ /usr/include/opencascade/NCollection_BasePointerVector.hxx \
+ /usr/include/opencascade/NCollection_Allocator.hxx \
+ /usr/include/opencascade/Standard_DimensionMismatch.hxx \
+ /usr/include/opencascade/Standard_DimensionError.hxx \
+ /usr/include/opencascade/Standard_OutOfMemory.hxx \
+ /usr/include/opencascade/Standard_NotImplemented.hxx \
+ /usr/include/opencascade/NCollection_BasePointerVector.hxx \
+ /usr/include/opencascade/NCollection_Iterator.hxx \
+ /usr/include/opencascade/NCollection_OccAllocator.hxx \
+ /usr/include/opencascade/StdFail_NotDone.hxx \
+ /usr/include/opencascade/NCollection_IndexedIterator.hxx \
+ /usr/include/opencascade/OSD_MemInfo.hxx \
+ /usr/include/opencascade/TopTools_MapOfShape.hxx \
+ /usr/include/opencascade/NCollection_Map.hxx \
+ /usr/include/opencascade/NCollection_MapAlgo.hxx \
+ /usr/include/opencascade/TopTools_IndexedDataMapOfShapeListOfShape.hxx \
+ /usr/include/opencascade/TopTools_ListOfShape.hxx \
+ /usr/include/opencascade/TopoDS_Edge.hxx \
+ /usr/include/opencascade/TopoDS_Face.hxx \
+ /usr/include/opencascade/Message_ProgressRange.hxx \
+ /usr/include/opencascade/Message_ProgressIndicator.hxx \
+ /usr/include/opencascade/Standard_Mutex.hxx \
+ /usr/include/opencascade/Standard_ErrorHandler.hxx \
+ /usr/include/opencascade/Standard_PErrorHandler.hxx \
+ /usr/include/opencascade/Standard_JmpBuf.hxx /usr/include/setjmp.h \
+ /usr/include/opencascade/Standard_HandlerStatus.hxx \
+ /usr/include/opencascade/Standard_ThreadId.hxx \
+ /usr/include/opencascade/NCollection_Shared.hxx /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/opencascade/Message_ProgressScope.hxx \
+ /usr/include/opencascade/BRepTools_Modifier.lxx \
+ /usr/include/opencascade/BRepBuilderAPI_MakeShape.hxx \
+ /usr/include/opencascade/BRepBuilderAPI_Command.hxx \
  /usr/include/opencascade/GCPnts_AbscissaPoint.hxx \
  /usr/include/opencascade/CPnts_AbscissaPoint.hxx \
  /usr/include/opencascade/CPnts_MyRootFunction.hxx \
@@ -471,7 +528,6 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/math_FunctionWithDerivative.hxx \
  /usr/include/opencascade/CPnts_MyRootFunction.lxx \
  /usr/include/opencascade/CPnts_AbscissaPoint.lxx \
- /usr/include/opencascade/StdFail_NotDone.hxx \
  /usr/include/opencascade/Geom2dAdaptor_Curve.hxx \
  /usr/include/opencascade/Adaptor2d_Curve2d.hxx \
  /usr/include/opencascade/GeomAbs_CurveType.hxx \
@@ -483,13 +539,6 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/gp_Parab2d.hxx \
  /usr/include/opencascade/TColStd_Array1OfReal.hxx \
  /usr/include/opencascade/NCollection_Array1.hxx \
- /usr/include/opencascade/Standard_DimensionMismatch.hxx \
- /usr/include/opencascade/Standard_DimensionError.hxx \
- /usr/include/opencascade/Standard_OutOfMemory.hxx \
- /usr/include/opencascade/Standard_NotImplemented.hxx \
- /usr/include/opencascade/NCollection_Iterator.hxx \
- /usr/include/opencascade/NCollection_Allocator.hxx \
- /usr/include/opencascade/NCollection_IndexedIterator.hxx \
  /usr/include/opencascade/BSplCLib_Cache.hxx \
  /usr/include/opencascade/BSplCLib_CacheParams.hxx \
  /usr/include/opencascade/BSplCLib.hxx \
@@ -519,8 +568,6 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/Extrema_EPCOfExtPC2d.hxx \
  /usr/include/opencascade/Extrema_PCFOfEPCOfExtPC2d.hxx \
  /usr/include/opencascade/TColStd_SequenceOfReal.hxx \
- /usr/include/opencascade/NCollection_Sequence.hxx \
- /usr/include/opencascade/NCollection_BaseSequence.hxx \
  /usr/include/opencascade/TColStd_SequenceOfInteger.hxx \
  /usr/include/opencascade/Extrema_SequenceOfPOnCurv2d.hxx \
  /usr/include/opencascade/TColStd_SequenceOfBoolean.hxx \
@@ -599,8 +646,15 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtGui/QKeyEvent \
  /usr/include/qt6/QtWidgets/QKeySequenceEdit \
  /usr/include/qt6/QtWidgets/qkeysequenceedit.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtWidgets/QMenu \
+ /usr/include/qt6/QtWidgets/QGridLayout /usr/include/qt6/QtWidgets/QLabel \
+ /usr/include/qt6/QtWidgets/qlabel.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtWidgets/QListWidget \
+ /usr/include/qt6/QtWidgets/qlistwidget.h \
+ /usr/include/qt6/QtWidgets/qlistview.h \
+ /usr/include/qt6/QtWidgets/qabstractitemview.h \
+ /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt6/QtCore/qitemselectionmodel.h \
+ /usr/include/qt6/QtWidgets/QVBoxLayout /usr/include/qt6/QtWidgets/QMenu \
  /usr/include/qt6/QtWidgets/qmenu.h /usr/include/qt6/QtWidgets/QMenuBar \
  /usr/include/qt6/QtWidgets/qmenubar.h \
  /usr/include/qt6/QtWidgets/QMessageBox \
@@ -641,8 +695,16 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtWidgets/QTreeWidget \
  /usr/include/qt6/QtWidgets/qtreewidget.h \
  /usr/include/qt6/QtWidgets/qtreeview.h \
- /usr/include/qt6/QtWidgets/qabstractitemview.h \
- /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt6/QtCore/qitemselectionmodel.h \
  /usr/include/qt6/QtWidgets/qtreewidgetitemiterator.h \
- /usr/include/qt6/QtGui/QVector2D /usr/include/qt6/QtGui/QWheelEvent
+ /usr/include/qt6/QtGui/QVector2D /usr/include/qt6/QtCore/QThreadPool \
+ /usr/include/qt6/QtCore/qthreadpool.h /usr/include/qt6/QtCore/qthread.h \
+ /usr/include/c++/16/future /usr/include/c++/16/mutex \
+ /usr/include/c++/16/bits/std_mutex.h \
+ /usr/include/c++/16/bits/unique_lock.h \
+ /usr/include/c++/16/condition_variable \
+ /usr/include/c++/16/bits/atomic_futex.h \
+ /usr/include/c++/16/bits/std_thread.h \
+ /usr/include/qt6/QtCore/qrunnable.h /usr/include/qt6/QtGui/QWheelEvent \
+ /usr/include/qt6/QtGui/QWindow /usr/include/qt6/QtGui/qwindow.h \
+ /usr/include/qt6/QtCore/QEvent /usr/include/qt6/QtCore/QMargins \
+ /usr/include/qt6/QtGui/qsurface.h /usr/include/qt6/QtGui/QGuiApplication

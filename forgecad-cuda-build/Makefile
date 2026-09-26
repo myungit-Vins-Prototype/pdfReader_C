@@ -191,6 +191,30 @@ forgekernel_tests/fast:
 	$(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/build
 .PHONY : forgekernel_tests/fast
 
+cad_constraints.o: cad_constraints.cpp.o
+.PHONY : cad_constraints.o
+
+# target to build an object file
+cad_constraints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_constraints.cpp.o
+.PHONY : cad_constraints.cpp.o
+
+cad_constraints.i: cad_constraints.cpp.i
+.PHONY : cad_constraints.i
+
+# target to preprocess a source file
+cad_constraints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_constraints.cpp.i
+.PHONY : cad_constraints.cpp.i
+
+cad_constraints.s: cad_constraints.cpp.s
+.PHONY : cad_constraints.s
+
+# target to generate assembly for a file
+cad_constraints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_constraints.cpp.s
+.PHONY : cad_constraints.cpp.s
+
 cad_curve_solver.o: cad_curve_solver.cpp.o
 .PHONY : cad_curve_solver.o
 
@@ -517,6 +541,9 @@ help:
 	@echo "... forgecad"
 	@echo "... forgekernel"
 	@echo "... forgekernel_tests"
+	@echo "... cad_constraints.o"
+	@echo "... cad_constraints.i"
+	@echo "... cad_constraints.s"
 	@echo "... cad_curve_solver.o"
 	@echo "... cad_curve_solver.i"
 	@echo "... cad_curve_solver.s"

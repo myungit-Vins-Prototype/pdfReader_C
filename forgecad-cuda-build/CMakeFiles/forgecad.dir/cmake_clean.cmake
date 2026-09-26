@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgecad_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/forgecad_autogen.dir/ParseCache.txt"
   "forgecad_autogen"
+  "CMakeFiles/forgecad.dir/cad_constraints.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_constraints.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o"
   "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_document_io.cpp.o"

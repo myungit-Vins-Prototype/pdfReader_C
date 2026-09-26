@@ -458,6 +458,12 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/GeomEvaluator_Curve.hxx \
  /usr/include/opencascade/Standard_NullObject.hxx \
  /usr/include/opencascade/TopoDS_Edge.hxx \
+ /usr/include/opencascade/BRepAdaptor_Surface.hxx \
+ /usr/include/opencascade/GeomAdaptor_Surface.hxx \
+ /usr/include/opencascade/BSplSLib_Cache.hxx \
+ /usr/include/opencascade/GeomEvaluator_Surface.hxx \
+ /usr/include/opencascade/Geom_Surface.hxx \
+ /usr/include/opencascade/TopoDS_Face.hxx \
  /usr/include/opencascade/BRepAlgoAPI_Common.hxx \
  /usr/include/opencascade/BRepAlgoAPI_BooleanOperation.hxx \
  /usr/include/opencascade/BOPAlgo_Operation.hxx \
@@ -577,7 +583,6 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/IntCurve_IConicTool.hxx \
  /usr/include/opencascade/TopClass_Classifier2d.lxx \
  /usr/include/opencascade/BRepClass_Edge.hxx \
- /usr/include/opencascade/TopoDS_Face.hxx \
  /usr/include/opencascade/BRepClass_Edge.lxx \
  /usr/include/opencascade/TopClass_FaceClassifier.lxx \
  /usr/include/opencascade/BRepClass_FaceExplorer.hxx \
@@ -664,11 +669,6 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/Extrema_ExtFlag.hxx \
  /usr/include/opencascade/BRepFilletAPI_MakeChamfer.hxx \
  /usr/include/opencascade/ChFi3d_ChBuilder.hxx \
- /usr/include/opencascade/BRepAdaptor_Surface.hxx \
- /usr/include/opencascade/GeomAdaptor_Surface.hxx \
- /usr/include/opencascade/BSplSLib_Cache.hxx \
- /usr/include/opencascade/GeomEvaluator_Surface.hxx \
- /usr/include/opencascade/Geom_Surface.hxx \
  /usr/include/opencascade/ChFi3d_Builder.hxx \
  /usr/include/opencascade/BRepAdaptor_Curve2d.hxx \
  /usr/include/opencascade/Geom2dAdaptor_Curve.hxx \

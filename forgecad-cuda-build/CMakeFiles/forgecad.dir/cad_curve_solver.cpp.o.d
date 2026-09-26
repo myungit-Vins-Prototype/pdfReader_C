@@ -454,6 +454,7 @@ CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o: \
  /usr/include/opencascade/TColStd_Array1OfInteger.hxx \
  /usr/include/opencascade/Geom2d_Circle.hxx \
  /usr/include/opencascade/Geom2d_Conic.hxx \
+ /usr/include/opencascade/Geom2d_Ellipse.hxx \
  /usr/include/opencascade/Geom2dAdaptor_Curve.hxx \
  /usr/include/opencascade/BSplCLib_Cache.hxx \
  /usr/include/opencascade/BSplCLib_CacheParams.hxx \

@@ -202,6 +202,30 @@ fk_blend.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend.cpp.s
 .PHONY : fk_blend.cpp.s
 
+fk_blend_loop.o: fk_blend_loop.cpp.o
+.PHONY : fk_blend_loop.o
+
+# target to build an object file
+fk_blend_loop.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend_loop.cpp.o
+.PHONY : fk_blend_loop.cpp.o
+
+fk_blend_loop.i: fk_blend_loop.cpp.i
+.PHONY : fk_blend_loop.i
+
+# target to preprocess a source file
+fk_blend_loop.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend_loop.cpp.i
+.PHONY : fk_blend_loop.cpp.i
+
+fk_blend_loop.s: fk_blend_loop.cpp.s
+.PHONY : fk_blend_loop.s
+
+# target to generate assembly for a file
+fk_blend_loop.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend_loop.cpp.s
+.PHONY : fk_blend_loop.cpp.s
+
 fk_body_check.o: fk_body_check.cpp.o
 .PHONY : fk_body_check.o
 
@@ -1419,6 +1443,9 @@ help:
 	@echo "... fk_blend.o"
 	@echo "... fk_blend.i"
 	@echo "... fk_blend.s"
+	@echo "... fk_blend_loop.o"
+	@echo "... fk_blend_loop.i"
+	@echo "... fk_blend_loop.s"
 	@echo "... fk_body_check.o"
 	@echo "... fk_body_check.i"
 	@echo "... fk_body_check.s"
