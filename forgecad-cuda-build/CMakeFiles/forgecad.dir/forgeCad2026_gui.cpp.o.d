@@ -443,6 +443,8 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/TopAbs_ShapeEnum.hxx \
  /usr/include/opencascade/TopAbs_State.hxx \
  /usr/include/opencascade/TopoDS_ListOfShape.hxx \
+ /home/myungit/Documenti/pdfReader_C/cad_document_io.h \
+ /home/myungit/Documenti/pdfReader_C/cad_export.h \
  /home/myungit/Documenti/pdfReader_C/cad_forge.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
@@ -456,7 +458,73 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/opencascade/gp_Ax2.hxx \
  /usr/include/opencascade/Precision.hxx \
  /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.h \
+ /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.h \
+ /usr/include/qt6/QtCore/QSet \
  /home/myungit/Documenti/pdfReader_C/cad_snap.h \
+ /usr/include/opencascade/GCPnts_AbscissaPoint.hxx \
+ /usr/include/opencascade/CPnts_AbscissaPoint.hxx \
+ /usr/include/opencascade/CPnts_MyRootFunction.hxx \
+ /usr/include/opencascade/CPnts_MyGaussFunction.hxx \
+ /usr/include/opencascade/CPnts_RealFunction.hxx \
+ /usr/include/opencascade/math_Function.hxx \
+ /usr/include/opencascade/CPnts_MyGaussFunction.lxx \
+ /usr/include/opencascade/math_FunctionWithDerivative.hxx \
+ /usr/include/opencascade/CPnts_MyRootFunction.lxx \
+ /usr/include/opencascade/CPnts_AbscissaPoint.lxx \
+ /usr/include/opencascade/StdFail_NotDone.hxx \
+ /usr/include/opencascade/Geom2dAdaptor_Curve.hxx \
+ /usr/include/opencascade/Adaptor2d_Curve2d.hxx \
+ /usr/include/opencascade/GeomAbs_CurveType.hxx \
+ /usr/include/opencascade/gp_Lin2d.hxx \
+ /usr/include/opencascade/gp_Circ2d.hxx \
+ /usr/include/opencascade/gp_Ax22d.hxx \
+ /usr/include/opencascade/gp_Elips2d.hxx \
+ /usr/include/opencascade/gp_Hypr2d.hxx \
+ /usr/include/opencascade/gp_Parab2d.hxx \
+ /usr/include/opencascade/TColStd_Array1OfReal.hxx \
+ /usr/include/opencascade/NCollection_Array1.hxx \
+ /usr/include/opencascade/Standard_DimensionMismatch.hxx \
+ /usr/include/opencascade/Standard_DimensionError.hxx \
+ /usr/include/opencascade/Standard_OutOfMemory.hxx \
+ /usr/include/opencascade/Standard_NotImplemented.hxx \
+ /usr/include/opencascade/NCollection_Iterator.hxx \
+ /usr/include/opencascade/NCollection_Allocator.hxx \
+ /usr/include/opencascade/NCollection_IndexedIterator.hxx \
+ /usr/include/opencascade/BSplCLib_Cache.hxx \
+ /usr/include/opencascade/BSplCLib_CacheParams.hxx \
+ /usr/include/opencascade/BSplCLib.hxx \
+ /usr/include/opencascade/BSplCLib_EvaluatorFunction.hxx \
+ /usr/include/opencascade/BSplCLib_KnotDistribution.hxx \
+ /usr/include/opencascade/BSplCLib_MultDistribution.hxx \
+ /usr/include/opencascade/GeomAbs_BSplKnotDistribution.hxx \
+ /usr/include/opencascade/TColgp_Array1OfPnt.hxx \
+ /usr/include/opencascade/TColgp_Array1OfPnt2d.hxx \
+ /usr/include/opencascade/TColStd_Array2OfReal.hxx \
+ /usr/include/opencascade/NCollection_Array2.hxx \
+ /usr/include/opencascade/TColStd_HArray1OfInteger.hxx \
+ /usr/include/opencascade/TColStd_Array1OfInteger.hxx \
+ /usr/include/opencascade/NCollection_DefineHArray1.hxx \
+ /usr/include/opencascade/TColStd_HArray1OfReal.hxx \
+ /usr/include/opencascade/BSplCLib.lxx /usr/include/opencascade/PLib.hxx \
+ /usr/include/opencascade/TColgp_Array2OfPnt.hxx \
+ /usr/include/opencascade/TColStd_HArray2OfReal.hxx \
+ /usr/include/opencascade/NCollection_DefineHArray2.hxx \
+ /usr/include/opencascade/Geom2dEvaluator_Curve.hxx \
+ /usr/include/opencascade/Standard_NullObject.hxx \
+ /usr/include/opencascade/Geom2dAPI_ProjectPointOnCurve.hxx \
+ /usr/include/opencascade/Extrema_ExtPC2d.hxx \
+ /usr/include/opencascade/Extrema_ExtPElC2d.hxx \
+ /usr/include/opencascade/Extrema_POnCurv2d.hxx \
+ /usr/include/opencascade/Extrema_Point.lxx \
+ /usr/include/opencascade/Extrema_EPCOfExtPC2d.hxx \
+ /usr/include/opencascade/Extrema_PCFOfEPCOfExtPC2d.hxx \
+ /usr/include/opencascade/TColStd_SequenceOfReal.hxx \
+ /usr/include/opencascade/NCollection_Sequence.hxx \
+ /usr/include/opencascade/NCollection_BaseSequence.hxx \
+ /usr/include/opencascade/TColStd_SequenceOfInteger.hxx \
+ /usr/include/opencascade/Extrema_SequenceOfPOnCurv2d.hxx \
+ /usr/include/opencascade/TColStd_SequenceOfBoolean.hxx \
+ /usr/include/opencascade/Geom2dAPI_ProjectPointOnCurve.lxx \
  /usr/include/qt6/QtGui/QAction /usr/include/qt6/QtGui/QActionGroup \
  /usr/include/qt6/QtGui/qactiongroup.h \
  /usr/include/qt6/QtWidgets/QApplication \
@@ -503,9 +571,19 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/QDialog \
  /usr/include/qt6/QtWidgets/QDialogButtonBox \
  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/qt6/QtGui/QCloseEvent \
  /usr/include/qt6/QtWidgets/QDockWidget \
  /usr/include/qt6/QtWidgets/qdockwidget.h \
- /usr/include/qt6/QtWidgets/QFormLayout \
+ /usr/include/qt6/QtWidgets/QFileDialog \
+ /usr/include/qt6/QtWidgets/qfiledialog.h /usr/include/qt6/QtCore/qdir.h \
+ /usr/include/qt6/QtCore/qdirlisting.h \
+ /usr/include/qt6/QtCore/qfiledevice.h /usr/include/c++/16/filesystem \
+ /usr/include/c++/16/bits/fs_fwd.h /usr/include/c++/16/bits/fs_path.h \
+ /usr/include/c++/16/codecvt /usr/include/c++/16/bits/fs_dir.h \
+ /usr/include/c++/16/bits/fs_ops.h /usr/include/qt6/QtCore/qdatetime.h \
+ /usr/include/qt6/QtCore/qcalendar.h /usr/include/qt6/QtCore/qfile.h \
+ /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
+ /usr/include/qt6/QtCore/QFileInfo /usr/include/qt6/QtWidgets/QFormLayout \
  /usr/include/qt6/QtWidgets/qformlayout.h \
  /usr/include/qt6/QtWidgets/QLayout /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
@@ -517,7 +595,10 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextdocument.h \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
- /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/QKeyEvent \
+ /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/QFocusEvent \
+ /usr/include/qt6/QtGui/QKeyEvent \
+ /usr/include/qt6/QtWidgets/QKeySequenceEdit \
+ /usr/include/qt6/QtWidgets/qkeysequenceedit.h \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtWidgets/QMenu \
  /usr/include/qt6/QtWidgets/qmenu.h /usr/include/qt6/QtWidgets/QMenuBar \
@@ -528,10 +609,14 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvector4d.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
  /usr/include/qt6/QtGui/QMouseEvent \
- /usr/include/qt6/QtGui/QOpenGLFunctions \
- /usr/include/qt6/QtGui/qopenglfunctions.h \
+ /usr/include/qt6/QtOpenGL/QOpenGLFramebufferObject \
+ /usr/include/qt6/QtOpenGL/qopenglframebufferobject.h \
+ /usr/include/qt6/QtOpenGL/qtopenglglobal.h \
+ /usr/include/qt6/QtOpenGL/qtopenglexports.h \
  /usr/include/qt6/QtGui/qopengl.h /usr/include/GL/gl.h \
  /usr/include/qt6/QtGui/qopenglext.h \
+ /usr/include/qt6/QtGui/QOpenGLFunctions \
+ /usr/include/qt6/QtGui/qopenglfunctions.h \
  /usr/include/qt6/QtGui/qopenglcontext.h \
  /usr/include/qt6/QtGui/QSurfaceFormat \
  /usr/include/qt6/QtGui/qsurfaceformat.h \
@@ -546,6 +631,7 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtCore/QSettings /usr/include/qt6/QtCore/qsettings.h \
+ /usr/include/qt6/QtCore/QSignalBlocker \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
  /usr/include/qt6/QtWidgets/QStatusBar \

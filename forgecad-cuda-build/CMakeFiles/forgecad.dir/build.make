@@ -142,10 +142,52 @@ CMakeFiles/forgecad.dir/cad_snap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgecad.dir/cad_snap.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/cad_snap.cpp -o CMakeFiles/forgecad.dir/cad_snap.cpp.s
 
+CMakeFiles/forgecad.dir/cad_export.cpp.o: CMakeFiles/forgecad.dir/flags.make
+CMakeFiles/forgecad.dir/cad_export.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_export.cpp
+CMakeFiles/forgecad.dir/cad_export.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/forgecad.dir/cad_export.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_export.cpp.o -MF CMakeFiles/forgecad.dir/cad_export.cpp.o.d -o CMakeFiles/forgecad.dir/cad_export.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_export.cpp
+
+CMakeFiles/forgecad.dir/cad_export.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgecad.dir/cad_export.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/cad_export.cpp > CMakeFiles/forgecad.dir/cad_export.cpp.i
+
+CMakeFiles/forgecad.dir/cad_export.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgecad.dir/cad_export.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/cad_export.cpp -o CMakeFiles/forgecad.dir/cad_export.cpp.s
+
+CMakeFiles/forgecad.dir/cad_document_io.cpp.o: CMakeFiles/forgecad.dir/flags.make
+CMakeFiles/forgecad.dir/cad_document_io.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_document_io.cpp
+CMakeFiles/forgecad.dir/cad_document_io.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/forgecad.dir/cad_document_io.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_document_io.cpp.o -MF CMakeFiles/forgecad.dir/cad_document_io.cpp.o.d -o CMakeFiles/forgecad.dir/cad_document_io.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_document_io.cpp
+
+CMakeFiles/forgecad.dir/cad_document_io.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgecad.dir/cad_document_io.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/cad_document_io.cpp > CMakeFiles/forgecad.dir/cad_document_io.cpp.i
+
+CMakeFiles/forgecad.dir/cad_document_io.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgecad.dir/cad_document_io.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/cad_document_io.cpp -o CMakeFiles/forgecad.dir/cad_document_io.cpp.s
+
+CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o: CMakeFiles/forgecad.dir/flags.make
+CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp
+CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o -MF CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o.d -o CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp
+
+CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp > CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.i
+
+CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp -o CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.s
+
 CMakeFiles/forgecad.dir/cad_history.cpp.o: CMakeFiles/forgecad.dir/flags.make
 CMakeFiles/forgecad.dir/cad_history.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_history.cpp
 CMakeFiles/forgecad.dir/cad_history.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/forgecad.dir/cad_history.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/forgecad.dir/cad_history.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_history.cpp.o -MF CMakeFiles/forgecad.dir/cad_history.cpp.o.d -o CMakeFiles/forgecad.dir/cad_history.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_history.cpp
 
 CMakeFiles/forgecad.dir/cad_history.cpp.i: cmake_force
@@ -159,7 +201,7 @@ CMakeFiles/forgecad.dir/cad_history.cpp.s: cmake_force
 CMakeFiles/forgecad.dir/cad_kernel.cpp.o: CMakeFiles/forgecad.dir/flags.make
 CMakeFiles/forgecad.dir/cad_kernel.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_kernel.cpp
 CMakeFiles/forgecad.dir/cad_kernel.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/forgecad.dir/cad_kernel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/forgecad.dir/cad_kernel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_kernel.cpp.o -MF CMakeFiles/forgecad.dir/cad_kernel.cpp.o.d -o CMakeFiles/forgecad.dir/cad_kernel.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_kernel.cpp
 
 CMakeFiles/forgecad.dir/cad_kernel.cpp.i: cmake_force
@@ -173,7 +215,7 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.s: cmake_force
 CMakeFiles/forgecad.dir/cad_forge.cpp.o: CMakeFiles/forgecad.dir/flags.make
 CMakeFiles/forgecad.dir/cad_forge.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_forge.cpp
 CMakeFiles/forgecad.dir/cad_forge.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/forgecad.dir/cad_forge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/forgecad.dir/cad_forge.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_forge.cpp.o -MF CMakeFiles/forgecad.dir/cad_forge.cpp.o.d -o CMakeFiles/forgecad.dir/cad_forge.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_forge.cpp
 
 CMakeFiles/forgecad.dir/cad_forge.cpp.i: cmake_force
@@ -187,7 +229,7 @@ CMakeFiles/forgecad.dir/cad_forge.cpp.s: cmake_force
 CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o: CMakeFiles/forgecad.dir/flags.make
 CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o: /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp
 CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o: CMakeFiles/forgecad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o -MF CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o.d -o CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp
 
 CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.i: cmake_force
@@ -202,7 +244,7 @@ CMakeFiles/forgecad.dir/cuda_support.cu.o: CMakeFiles/forgecad.dir/flags.make
 CMakeFiles/forgecad.dir/cuda_support.cu.o: CMakeFiles/forgecad.dir/includes_CUDA.rsp
 CMakeFiles/forgecad.dir/cuda_support.cu.o: /home/myungit/Documenti/pdfReader_C/cuda_support.cu
 CMakeFiles/forgecad.dir/cuda_support.cu.o: CMakeFiles/forgecad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CUDA object CMakeFiles/forgecad.dir/cuda_support.cu.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CUDA object CMakeFiles/forgecad.dir/cuda_support.cu.o"
 	/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/forgecad.dir/cuda_support.cu.o -MF CMakeFiles/forgecad.dir/cuda_support.cu.o.d -x cu -c /home/myungit/Documenti/pdfReader_C/cuda_support.cu -o CMakeFiles/forgecad.dir/cuda_support.cu.o
 
 CMakeFiles/forgecad.dir/cuda_support.cu.i: cmake_force
@@ -220,6 +262,9 @@ forgecad_OBJECTS = \
 "CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o" \
 "CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o" \
 "CMakeFiles/forgecad.dir/cad_snap.cpp.o" \
+"CMakeFiles/forgecad.dir/cad_export.cpp.o" \
+"CMakeFiles/forgecad.dir/cad_document_io.cpp.o" \
+"CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o" \
 "CMakeFiles/forgecad.dir/cad_history.cpp.o" \
 "CMakeFiles/forgecad.dir/cad_kernel.cpp.o" \
 "CMakeFiles/forgecad.dir/cad_forge.cpp.o" \
@@ -234,6 +279,9 @@ forgecad: CMakeFiles/forgecad.dir/forgeCad2026.cpp.o
 forgecad: CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cad_curve_solver.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cad_snap.cpp.o
+forgecad: CMakeFiles/forgecad.dir/cad_export.cpp.o
+forgecad: CMakeFiles/forgecad.dir/cad_document_io.cpp.o
+forgecad: CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cad_history.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cad_kernel.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cad_forge.cpp.o
@@ -241,8 +289,11 @@ forgecad: CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o
 forgecad: CMakeFiles/forgecad.dir/cuda_support.cu.o
 forgecad: CMakeFiles/forgecad.dir/build.make
 forgecad: /usr/lib/libQt6OpenGLWidgets.so.6.11.2
-forgecad: /usr/lib/libTKBool.so.7.9.3
-forgecad: /usr/lib/libTKMesh.so.7.9.3
+forgecad: /usr/lib/libTKFillet.so.7.9.3
+forgecad: /usr/lib/libTKDESTEP.so.7.9.3
+forgecad: /usr/lib/libTKDEIGES.so.7.9.3
+forgecad: /usr/lib/libTKXCAF.so.7.9.3
+forgecad: /usr/lib/libTKDE.so.7.9.3
 forgecad: kernel/libforgekernel.a
 forgecad: /usr/lib/libQt6Widgets.so.6.11.2
 forgecad: /usr/lib/libQt6OpenGL.so.6.11.2
@@ -250,19 +301,29 @@ forgecad: /usr/lib/libQt6Gui.so.6.11.2
 forgecad: /usr/lib/libGLX.so
 forgecad: /usr/lib/libOpenGL.so
 forgecad: /usr/lib/libQt6Core.so.6.11.2
+forgecad: /usr/lib/libTKBool.so.7.9.3
+forgecad: /usr/lib/libTKXSBase.so.7.9.3
+forgecad: /usr/lib/libTKVCAF.so.7.9.3
+forgecad: /usr/lib/libTKCAF.so.7.9.3
 forgecad: /usr/lib/libTKBO.so.7.9.3
 forgecad: /usr/lib/libTKPrim.so.7.9.3
+forgecad: /usr/lib/libTKV3d.so.7.9.3
+forgecad: /usr/lib/libTKMesh.so.7.9.3
 forgecad: /usr/lib/libTKShHealing.so.7.9.3
+forgecad: /usr/lib/libTKService.so.7.9.3
+forgecad: /usr/lib/libTKHLR.so.7.9.3
 forgecad: /usr/lib/libTKTopAlgo.so.7.9.3
 forgecad: /usr/lib/libTKGeomAlgo.so.7.9.3
+forgecad: /usr/lib/libTKLCAF.so.7.9.3
 forgecad: /usr/lib/libTKBRep.so.7.9.3
 forgecad: /usr/lib/libTKGeomBase.so.7.9.3
 forgecad: /usr/lib/libTKG3d.so.7.9.3
 forgecad: /usr/lib/libTKG2d.so.7.9.3
 forgecad: /usr/lib/libTKMath.so.7.9.3
+forgecad: /usr/lib/libTKCDF.so.7.9.3
 forgecad: /usr/lib/libTKernel.so.7.9.3
 forgecad: CMakeFiles/forgecad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable forgecad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable forgecad"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forgecad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

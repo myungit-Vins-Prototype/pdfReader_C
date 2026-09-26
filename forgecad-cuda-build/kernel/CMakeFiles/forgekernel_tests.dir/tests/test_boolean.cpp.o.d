@@ -531,6 +531,10 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_boolean.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_extrude.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_profile.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_revolve.h \
@@ -539,6 +543,7 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_mass.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_primitives.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_quadrature.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_tessellate.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test_profiles.h \
  /usr/include/opencascade/BRepBuilderAPI_MakeEdge.hxx \
  /usr/include/opencascade/BRepLib_MakeEdge.hxx \
@@ -577,7 +582,5 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o: \
  /usr/include/opencascade/TColStd_HArray2OfReal.hxx \
  /usr/include/opencascade/TColStd_Array2OfReal.hxx \
  /usr/include/opencascade/Geom_BoundedSurface.hxx \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test.h

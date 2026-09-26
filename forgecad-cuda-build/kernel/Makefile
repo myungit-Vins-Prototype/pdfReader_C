@@ -178,6 +178,30 @@ fk_bernstein.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_bernstein.cpp.s
 .PHONY : fk_bernstein.cpp.s
 
+fk_blend.o: fk_blend.cpp.o
+.PHONY : fk_blend.o
+
+# target to build an object file
+fk_blend.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend.cpp.o
+.PHONY : fk_blend.cpp.o
+
+fk_blend.i: fk_blend.cpp.i
+.PHONY : fk_blend.i
+
+# target to preprocess a source file
+fk_blend.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend.cpp.i
+.PHONY : fk_blend.cpp.i
+
+fk_blend.s: fk_blend.cpp.s
+.PHONY : fk_blend.s
+
+# target to generate assembly for a file
+fk_blend.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel.dir/build.make kernel/CMakeFiles/forgekernel.dir/fk_blend.cpp.s
+.PHONY : fk_blend.cpp.s
+
 fk_body_check.o: fk_body_check.cpp.o
 .PHONY : fk_body_check.o
 
@@ -850,6 +874,30 @@ tests/test_bernstein.cpp.s:
 	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.s
 .PHONY : tests/test_bernstein.cpp.s
 
+tests/test_blend.o: tests/test_blend.cpp.o
+.PHONY : tests/test_blend.o
+
+# target to build an object file
+tests/test_blend.cpp.o:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o
+.PHONY : tests/test_blend.cpp.o
+
+tests/test_blend.i: tests/test_blend.cpp.i
+.PHONY : tests/test_blend.i
+
+# target to preprocess a source file
+tests/test_blend.cpp.i:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.i
+.PHONY : tests/test_blend.cpp.i
+
+tests/test_blend.s: tests/test_blend.cpp.s
+.PHONY : tests/test_blend.s
+
+# target to generate assembly for a file
+tests/test_blend.cpp.s:
+	cd /home/myungit/Documenti/pdfReader_C/forgecad-cuda-build && $(MAKE) $(MAKESILENT) -f kernel/CMakeFiles/forgekernel_tests.dir/build.make kernel/CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.s
+.PHONY : tests/test_blend.cpp.s
+
 tests/test_boolean.o: tests/test_boolean.cpp.o
 .PHONY : tests/test_boolean.o
 
@@ -1368,6 +1416,9 @@ help:
 	@echo "... fk_bernstein.o"
 	@echo "... fk_bernstein.i"
 	@echo "... fk_bernstein.s"
+	@echo "... fk_blend.o"
+	@echo "... fk_blend.i"
+	@echo "... fk_blend.s"
 	@echo "... fk_body_check.o"
 	@echo "... fk_body_check.i"
 	@echo "... fk_body_check.s"
@@ -1452,6 +1503,9 @@ help:
 	@echo "... tests/test_bernstein.o"
 	@echo "... tests/test_bernstein.i"
 	@echo "... tests/test_bernstein.s"
+	@echo "... tests/test_blend.o"
+	@echo "... tests/test_blend.i"
+	@echo "... tests/test_blend.s"
 	@echo "... tests/test_boolean.o"
 	@echo "... tests/test_boolean.i"
 	@echo "... tests/test_boolean.s"

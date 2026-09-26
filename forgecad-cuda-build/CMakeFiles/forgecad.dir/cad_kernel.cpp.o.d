@@ -653,6 +653,66 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/IMeshTools_MeshAlgoType.hxx \
  /usr/include/opencascade/IMeshTools_ModelAlgo.hxx \
  /usr/include/opencascade/Standard_NumericError.hxx \
+ /usr/include/opencascade/BRepBuilderAPI_MakeVertex.hxx \
+ /usr/include/opencascade/BRepLib_MakeVertex.hxx \
+ /usr/include/opencascade/BRepExtrema_DistShapeShape.hxx \
+ /usr/include/opencascade/Bnd_Array1OfBox.hxx \
+ /usr/include/opencascade/BRepExtrema_SeqOfSolution.hxx \
+ /usr/include/opencascade/BRepExtrema_SolutionElem.hxx \
+ /usr/include/opencascade/BRepExtrema_SupportType.hxx \
+ /usr/include/opencascade/Extrema_ExtAlgo.hxx \
+ /usr/include/opencascade/Extrema_ExtFlag.hxx \
+ /usr/include/opencascade/BRepFilletAPI_MakeChamfer.hxx \
+ /usr/include/opencascade/ChFi3d_ChBuilder.hxx \
+ /usr/include/opencascade/BRepAdaptor_Surface.hxx \
+ /usr/include/opencascade/GeomAdaptor_Surface.hxx \
+ /usr/include/opencascade/BSplSLib_Cache.hxx \
+ /usr/include/opencascade/GeomEvaluator_Surface.hxx \
+ /usr/include/opencascade/Geom_Surface.hxx \
+ /usr/include/opencascade/ChFi3d_Builder.hxx \
+ /usr/include/opencascade/BRepAdaptor_Curve2d.hxx \
+ /usr/include/opencascade/Geom2dAdaptor_Curve.hxx \
+ /usr/include/opencascade/Geom2dEvaluator_Curve.hxx \
+ /usr/include/opencascade/ChFiDS_ErrorStatus.hxx \
+ /usr/include/opencascade/ChFiDS_Map.hxx \
+ /usr/include/opencascade/ChFiDS_Regularities.hxx \
+ /usr/include/opencascade/ChFiDS_Regul.hxx \
+ /usr/include/opencascade/ChFiDS_SequenceOfSurfData.hxx \
+ /usr/include/opencascade/ChFiDS_SurfData.hxx \
+ /usr/include/opencascade/ChFiDS_CommonPoint.hxx \
+ /usr/include/opencascade/ChFiDS_FaceInterference.hxx \
+ /usr/include/opencascade/ChFiDS_FaceInterference.lxx \
+ /usr/include/opencascade/ChFiDS_SurfData.lxx \
+ /usr/include/opencascade/ChFiDS_StripeMap.hxx \
+ /usr/include/opencascade/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx \
+ /usr/include/opencascade/ChFiDS_ListOfStripe.hxx \
+ /usr/include/opencascade/ChFiDS_Stripe.hxx \
+ /usr/include/opencascade/ChFiDS_HData.hxx \
+ /usr/include/opencascade/ChFiDS_Stripe.lxx \
+ /usr/include/opencascade/ChFiDS_StripeMap.lxx \
+ /usr/include/opencascade/ChFiDS_ElSpine.hxx \
+ /usr/include/opencascade/TColgp_SequenceOfAx1.hxx \
+ /usr/include/opencascade/math_Vector.hxx \
+ /usr/include/opencascade/math_VectorBase.hxx \
+ /usr/include/opencascade/math_Matrix.hxx \
+ /usr/include/opencascade/math_DoubleTab.hxx \
+ /usr/include/opencascade/math_DoubleTab.lxx \
+ /usr/include/opencascade/math_Matrix.lxx \
+ /usr/include/opencascade/math_VectorBase.lxx \
+ /usr/include/opencascade/Standard_DivideByZero.hxx \
+ /usr/include/opencascade/Standard_NullValue.hxx \
+ /usr/include/opencascade/TopTools_DataMapOfShapeListOfInteger.hxx \
+ /usr/include/opencascade/TColStd_ListOfInteger.hxx \
+ /usr/include/opencascade/ChFiDS_ChamfMethod.hxx \
+ /usr/include/opencascade/ChFiDS_ChamfMode.hxx \
+ /usr/include/opencascade/ChFiDS_SecHArray1.hxx \
+ /usr/include/opencascade/ChFiDS_SecArray1.hxx \
+ /usr/include/opencascade/ChFiDS_CircSection.hxx \
+ /usr/include/opencascade/BRepFilletAPI_LocalOperation.hxx \
+ /usr/include/opencascade/BRepFilletAPI_MakeFillet.hxx \
+ /usr/include/opencascade/ChFi3d_FilBuilder.hxx \
+ /usr/include/opencascade/BlendFunc_SectionShape.hxx \
+ /usr/include/opencascade/ChFi3d_FilletShape.hxx \
  /usr/include/opencascade/BRepPrimAPI_MakeBox.hxx \
  /usr/include/opencascade/BRepPrim_Wedge.hxx \
  /usr/include/opencascade/BRepPrim_GWedge.hxx \
@@ -681,7 +741,6 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/TopoDS_TVertex.hxx \
  /usr/include/opencascade/BRep_TVertex.lxx \
  /usr/include/opencascade/BRep_Tool.hxx \
- /usr/include/opencascade/Geom_Surface.hxx \
  /usr/include/opencascade/Poly_Polygon3D.hxx \
  /usr/include/opencascade/Poly_Polygon2D.hxx \
  /usr/include/opencascade/Poly_PolygonOnTriangulation.hxx \
@@ -721,15 +780,6 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/TColgp_SequenceOfPnt.hxx \
  /usr/include/opencascade/math_Function.hxx \
  /usr/include/opencascade/math_MultipleVarFunction.hxx \
- /usr/include/opencascade/math_Vector.hxx \
- /usr/include/opencascade/math_VectorBase.hxx \
- /usr/include/opencascade/math_Matrix.hxx \
- /usr/include/opencascade/math_DoubleTab.hxx \
- /usr/include/opencascade/math_DoubleTab.lxx \
- /usr/include/opencascade/math_Matrix.lxx \
- /usr/include/opencascade/math_VectorBase.lxx \
- /usr/include/opencascade/Standard_DivideByZero.hxx \
- /usr/include/opencascade/Standard_NullValue.hxx \
  /usr/include/opencascade/GProp_GProps.hxx \
  /usr/include/opencascade/GeomAPI.hxx \
  /usr/include/opencascade/IntCurvesFace_ShapeIntersector.hxx \
@@ -737,13 +787,7 @@ CMakeFiles/forgecad.dir/cad_kernel.cpp.o: \
  /usr/include/opencascade/IntCurvesFace_Intersector.hxx \
  /usr/include/opencascade/Bnd_BoundSortBox.hxx \
  /usr/include/opencascade/Bnd_HArray1OfBox.hxx \
- /usr/include/opencascade/Bnd_Array1OfBox.hxx \
  /usr/include/opencascade/TColStd_DataMapOfIntegerInteger.hxx \
- /usr/include/opencascade/TColStd_ListOfInteger.hxx \
- /usr/include/opencascade/BRepAdaptor_Surface.hxx \
- /usr/include/opencascade/GeomAdaptor_Surface.hxx \
- /usr/include/opencascade/BSplSLib_Cache.hxx \
- /usr/include/opencascade/GeomEvaluator_Surface.hxx \
  /usr/include/opencascade/IntCurveSurface_SequenceOfPnt.hxx \
  /usr/include/opencascade/IntCurveSurface_IntersectionPoint.hxx \
  /usr/include/opencascade/IntCurveSurface_IntersectionPoint.lxx \

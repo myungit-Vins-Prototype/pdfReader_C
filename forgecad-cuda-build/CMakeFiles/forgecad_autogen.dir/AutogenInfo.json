@@ -614,6 +614,18 @@
 			null
 		],
 		[
+			"/home/myungit/Documenti/pdfReader_C/cad_document_io.h",
+			"MU",
+			"EWIEGA46WW/moc_cad_document_io.cpp",
+			null
+		],
+		[
+			"/home/myungit/Documenti/pdfReader_C/cad_export.h",
+			"MU",
+			"EWIEGA46WW/moc_cad_export.cpp",
+			null
+		],
+		[
 			"/home/myungit/Documenti/pdfReader_C/cad_forge.h",
 			"MU",
 			"EWIEGA46WW/moc_cad_forge.cpp",
@@ -635,6 +647,12 @@
 			"/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.h",
 			"MU",
 			"EWIEGA46WW/moc_cad_kernel_lab.cpp",
+			null
+		],
+		[
+			"/home/myungit/Documenti/pdfReader_C/cad_sketch_edit.h",
+			"MU",
+			"EWIEGA46WW/moc_cad_sketch_edit.cpp",
 			null
 		],
 		[
@@ -738,10 +756,13 @@
 			"MU",
 			null
 		],
+		[ "/home/myungit/Documenti/pdfReader_C/cad_document_io.cpp", "MU", null ],
+		[ "/home/myungit/Documenti/pdfReader_C/cad_export.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_forge.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_history.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_kernel.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp", "MU", null ],
+		[ "/home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_snap.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cuda_support.cu", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/forgeCad2026.cpp", "MU", null ],

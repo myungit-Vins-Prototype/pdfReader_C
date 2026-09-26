@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgekernel_tests.dir/tests/fk_test_main.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.o"
   "CMakeFiles/forgekernel_tests.dir/tests/test_bernstein.cpp.o.d"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o"
+  "CMakeFiles/forgekernel_tests.dir/tests/test_blend.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o"
   "CMakeFiles/forgekernel_tests.dir/tests/test_boolean.cpp.o.d"
   "CMakeFiles/forgekernel_tests.dir/tests/test_bspline.cpp.o"

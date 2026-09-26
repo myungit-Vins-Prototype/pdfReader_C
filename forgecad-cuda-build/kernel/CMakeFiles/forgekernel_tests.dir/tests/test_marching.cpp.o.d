@@ -421,13 +421,15 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o: \
  /usr/include/opencascade/Geom_ToroidalSurface.hxx \
  /usr/include/opencascade/Geom_TrimmedCurve.hxx \
  /usr/include/opencascade/Geom_BoundedCurve.hxx \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_math.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_marching.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_pcurve.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_precision.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
@@ -517,7 +519,5 @@ kernel/CMakeFiles/forgekernel_tests.dir/tests/test_marching.cpp.o: \
  /usr/include/c++/16/bits/random.tcc /usr/include/c++/16/numeric \
  /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
  /home/myungit/Documenti/pdfReader_C/kernel/tests/fk_test.h

@@ -161,11 +161,11 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: \
  /usr/include/c++/16/tr1/riemann_zeta.tcc /usr/include/c++/16/stdexcept \
  /usr/include/c++/16/bits/stdexcept_except.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
- /usr/include/c++/16/algorithm /usr/include/c++/16/bits/stl_algo.h \
- /usr/include/c++/16/bits/algorithmfwd.h \
- /usr/include/c++/16/bits/stl_heap.h \
- /usr/include/c++/16/bits/uniform_int_dist.h \
- /usr/include/c++/16/pstl/glue_algorithm_defs.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_surface.h \
+ /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline_surface.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_bspline.h \
+ /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
  /usr/include/c++/16/functional /usr/include/c++/16/bits/std_function.h \
  /usr/include/c++/16/bits/functexcept.h /usr/include/c++/16/unordered_map \
  /usr/include/c++/16/bits/unordered_map.h \
@@ -173,14 +173,18 @@ kernel/CMakeFiles/forgekernel.dir/fk_boolean.cpp.o: \
  /usr/include/c++/16/bits/hashtable_policy.h \
  /usr/include/c++/16/bits/enable_special_members.h \
  /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/array \
- /usr/include/c++/16/compare /usr/include/c++/16/map \
+ /usr/include/c++/16/compare /usr/include/c++/16/algorithm \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h /usr/include/c++/16/map \
  /usr/include/c++/16/bits/stl_tree.h /usr/include/c++/16/bits/stl_map.h \
  /usr/include/c++/16/bits/stl_multimap.h /usr/include/c++/16/set \
  /usr/include/c++/16/bits/stl_set.h \
  /usr/include/c++/16/bits/stl_multiset.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_body_check.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_classify.h \
- /home/myungit/Documenti/pdfReader_C/kernel/fk_intersect.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_ops.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_curve_algo.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_marching.h \

@@ -215,6 +215,54 @@ cad_curve_solver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_curve_solver.cpp.s
 .PHONY : cad_curve_solver.cpp.s
 
+cad_document_io.o: cad_document_io.cpp.o
+.PHONY : cad_document_io.o
+
+# target to build an object file
+cad_document_io.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_document_io.cpp.o
+.PHONY : cad_document_io.cpp.o
+
+cad_document_io.i: cad_document_io.cpp.i
+.PHONY : cad_document_io.i
+
+# target to preprocess a source file
+cad_document_io.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_document_io.cpp.i
+.PHONY : cad_document_io.cpp.i
+
+cad_document_io.s: cad_document_io.cpp.s
+.PHONY : cad_document_io.s
+
+# target to generate assembly for a file
+cad_document_io.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_document_io.cpp.s
+.PHONY : cad_document_io.cpp.s
+
+cad_export.o: cad_export.cpp.o
+.PHONY : cad_export.o
+
+# target to build an object file
+cad_export.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_export.cpp.o
+.PHONY : cad_export.cpp.o
+
+cad_export.i: cad_export.cpp.i
+.PHONY : cad_export.i
+
+# target to preprocess a source file
+cad_export.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_export.cpp.i
+.PHONY : cad_export.cpp.i
+
+cad_export.s: cad_export.cpp.s
+.PHONY : cad_export.s
+
+# target to generate assembly for a file
+cad_export.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_export.cpp.s
+.PHONY : cad_export.cpp.s
+
 cad_forge.o: cad_forge.cpp.o
 .PHONY : cad_forge.o
 
@@ -310,6 +358,30 @@ cad_kernel_lab.s: cad_kernel_lab.cpp.s
 cad_kernel_lab.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.s
 .PHONY : cad_kernel_lab.cpp.s
+
+cad_sketch_edit.o: cad_sketch_edit.cpp.o
+.PHONY : cad_sketch_edit.o
+
+# target to build an object file
+cad_sketch_edit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o
+.PHONY : cad_sketch_edit.cpp.o
+
+cad_sketch_edit.i: cad_sketch_edit.cpp.i
+.PHONY : cad_sketch_edit.i
+
+# target to preprocess a source file
+cad_sketch_edit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.i
+.PHONY : cad_sketch_edit.cpp.i
+
+cad_sketch_edit.s: cad_sketch_edit.cpp.s
+.PHONY : cad_sketch_edit.s
+
+# target to generate assembly for a file
+cad_sketch_edit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.s
+.PHONY : cad_sketch_edit.cpp.s
 
 cad_snap.o: cad_snap.cpp.o
 .PHONY : cad_snap.o
@@ -448,6 +520,12 @@ help:
 	@echo "... cad_curve_solver.o"
 	@echo "... cad_curve_solver.i"
 	@echo "... cad_curve_solver.s"
+	@echo "... cad_document_io.o"
+	@echo "... cad_document_io.i"
+	@echo "... cad_document_io.s"
+	@echo "... cad_export.o"
+	@echo "... cad_export.i"
+	@echo "... cad_export.s"
 	@echo "... cad_forge.o"
 	@echo "... cad_forge.i"
 	@echo "... cad_forge.s"
@@ -460,6 +538,9 @@ help:
 	@echo "... cad_kernel_lab.o"
 	@echo "... cad_kernel_lab.i"
 	@echo "... cad_kernel_lab.s"
+	@echo "... cad_sketch_edit.o"
+	@echo "... cad_sketch_edit.i"
+	@echo "... cad_sketch_edit.s"
 	@echo "... cad_snap.o"
 	@echo "... cad_snap.i"
 	@echo "... cad_snap.s"

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/forgekernel.dir/fk_bernstein.cpp.o"
   "CMakeFiles/forgekernel.dir/fk_bernstein.cpp.o.d"
+  "CMakeFiles/forgekernel.dir/fk_blend.cpp.o"
+  "CMakeFiles/forgekernel.dir/fk_blend.cpp.o.d"
   "CMakeFiles/forgekernel.dir/fk_body_check.cpp.o"
   "CMakeFiles/forgekernel.dir/fk_body_check.cpp.o.d"
   "CMakeFiles/forgekernel.dir/fk_boolean.cpp.o"
