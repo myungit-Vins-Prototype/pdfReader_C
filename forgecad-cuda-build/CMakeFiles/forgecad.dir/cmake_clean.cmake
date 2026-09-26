@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/forgecad.dir/cad_forge.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_history.cpp.o"
   "CMakeFiles/forgecad.dir/cad_history.cpp.o.d"
+  "CMakeFiles/forgecad.dir/cad_icons.cpp.o"
+  "CMakeFiles/forgecad.dir/cad_icons.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_kernel.cpp.o"
   "CMakeFiles/forgecad.dir/cad_kernel.cpp.o.d"
   "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o"

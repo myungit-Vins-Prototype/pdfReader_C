@@ -452,6 +452,8 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_topology.h \
  /home/myungit/Documenti/pdfReader_C/kernel/fk_surface.h \
  /home/myungit/Documenti/pdfReader_C/cad_history.h \
+ /home/myungit/Documenti/pdfReader_C/cad_icons.h \
+ /usr/include/qt6/QtGui/QIcon /usr/include/qt6/QtCore/QStringList \
  /home/myungit/Documenti/pdfReader_C/cad_kernel.h \
  /usr/include/opencascade/gp_Ax3.hxx /usr/include/opencascade/gp_Ax1.hxx \
  /usr/include/opencascade/gp_Ax2.hxx \
@@ -690,8 +692,10 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtWidgets/qspinbox.h \
  /usr/include/qt6/QtWidgets/QStatusBar \
  /usr/include/qt6/QtWidgets/qstatusbar.h \
- /usr/include/qt6/QtCore/QStringList /usr/include/qt6/QtWidgets/QToolBar \
- /usr/include/qt6/QtWidgets/qtoolbar.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtWidgets/QToolBar \
+ /usr/include/qt6/QtWidgets/qtoolbar.h \
+ /usr/include/qt6/QtWidgets/QToolButton \
+ /usr/include/qt6/QtWidgets/qtoolbutton.h /usr/include/qt6/QtCore/QTimer \
  /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtWidgets/QTreeWidget \
  /usr/include/qt6/QtWidgets/qtreewidget.h \
  /usr/include/qt6/QtWidgets/qtreeview.h \
@@ -707,4 +711,5 @@ CMakeFiles/forgecad.dir/forgeCad2026_gui.cpp.o: \
  /usr/include/qt6/QtCore/qrunnable.h /usr/include/qt6/QtGui/QWheelEvent \
  /usr/include/qt6/QtGui/QWindow /usr/include/qt6/QtGui/qwindow.h \
  /usr/include/qt6/QtCore/QEvent /usr/include/qt6/QtCore/QMargins \
- /usr/include/qt6/QtGui/qsurface.h /usr/include/qt6/QtGui/QGuiApplication
+ /usr/include/qt6/QtGui/qsurface.h /usr/include/qt6/QtGui/QGuiApplication \
+ /usr/include/qt6/QtCore/qnamespace.h

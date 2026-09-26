@@ -335,6 +335,30 @@ cad_history.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_history.cpp.s
 .PHONY : cad_history.cpp.s
 
+cad_icons.o: cad_icons.cpp.o
+.PHONY : cad_icons.o
+
+# target to build an object file
+cad_icons.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_icons.cpp.o
+.PHONY : cad_icons.cpp.o
+
+cad_icons.i: cad_icons.cpp.i
+.PHONY : cad_icons.i
+
+# target to preprocess a source file
+cad_icons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_icons.cpp.i
+.PHONY : cad_icons.cpp.i
+
+cad_icons.s: cad_icons.cpp.s
+.PHONY : cad_icons.s
+
+# target to generate assembly for a file
+cad_icons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgecad.dir/build.make CMakeFiles/forgecad.dir/cad_icons.cpp.s
+.PHONY : cad_icons.cpp.s
+
 cad_kernel.o: cad_kernel.cpp.o
 .PHONY : cad_kernel.o
 
@@ -559,6 +583,9 @@ help:
 	@echo "... cad_history.o"
 	@echo "... cad_history.i"
 	@echo "... cad_history.s"
+	@echo "... cad_icons.o"
+	@echo "... cad_icons.i"
+	@echo "... cad_icons.s"
 	@echo "... cad_kernel.o"
 	@echo "... cad_kernel.i"
 	@echo "... cad_kernel.s"

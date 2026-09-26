@@ -14,6 +14,8 @@ forgecad_autogen/timestamp: /home/myungit/Documenti/pdfReader_C/CMakeLists.txt \
   /home/myungit/Documenti/pdfReader_C/cad_forge.h \
   /home/myungit/Documenti/pdfReader_C/cad_history.cpp \
   /home/myungit/Documenti/pdfReader_C/cad_history.h \
+  /home/myungit/Documenti/pdfReader_C/cad_icons.cpp \
+  /home/myungit/Documenti/pdfReader_C/cad_icons.h \
   /home/myungit/Documenti/pdfReader_C/cad_kernel.cpp \
   /home/myungit/Documenti/pdfReader_C/cad_kernel.h \
   /home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp \
@@ -582,8 +584,6 @@ forgecad_autogen/timestamp: /home/myungit/Documenti/pdfReader_C/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
-
 /usr/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
@@ -800,9 +800,9 @@ forgecad_autogen/timestamp: /home/myungit/Documenti/pdfReader_C/CMakeLists.txt \
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake:
 
-/opt/cuda/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargetsPrecheck.cmake:
 
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
 
 /usr/share/cmake/Modules/Internal/CheckCommon.cmake:
 
@@ -824,11 +824,9 @@ CMakeFiles/4.4.3/CMakeCXXCompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
 
-/opt/cuda/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+/opt/cuda/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
-/opt/cuda/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QTiffPluginTargetsPrecheck.cmake:
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
 
@@ -988,15 +986,7 @@ CMakeFiles/4.4.3/CMakeSystem.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargetsPrecheck.cmake:
 
-/opt/cuda/lib/cmake/opencascade/OpenCASCADEFoundationClassesTargets-release.cmake:
-
-CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
-
-/home/myungit/Documenti/pdfReader_C/cad_curve_solver.h:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargetsPrecheck.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
+/opt/cuda/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 /home/myungit/Documenti/pdfReader_C/forgeCad2026_gui.cpp:
 
@@ -1016,6 +1006,10 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
+/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
+
+/home/myungit/Documenti/pdfReader_C/cad_kernel.h:
+
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_snap.h:
@@ -1026,13 +1020,31 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
 
-/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
+/usr/lib/cmake/Qt6/QtFeature.cmake:
 
-/home/myungit/Documenti/pdfReader_C/cad_kernel.h:
+/opt/cuda/lib/cmake/opencascade/OpenCASCADECompileDefinitionsAndFlags-release.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginTargets-relwithdebinfo.cmake:
+
+/opt/cuda/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
+
+/home/myungit/Documenti/pdfReader_C/forgeCad2026.cpp:
 
 /usr/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_export.h:
+
+/usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
+
+/home/myungit/Documenti/pdfReader_C/cad_icons.h:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
+
+/opt/cuda/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_curve_solver.cpp:
 
@@ -1044,13 +1056,17 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_forge.cpp:
 
+/home/myungit/Documenti/pdfReader_C/cad_curve_solver.h:
+
+/opt/cuda/lib/cmake/opencascade/OpenCASCADEFoundationClassesTargets-release.cmake:
+
+CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
+
 /home/myungit/Documenti/pdfReader_C/cuda_support.cu:
 
 /opt/cuda/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake:
-
-/opt/cuda/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /opt/cuda/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
@@ -1092,6 +1108,8 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_snap.cpp:
 
+/opt/cuda/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
+
 /usr/share/cmake/Modules/FindOpenGL.cmake:
 
 /opt/cuda/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
@@ -1099,12 +1117,6 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QWaylandBradientDecorationPluginTargets-relwithdebinfo.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
-
-/opt/cuda/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
 /opt/cuda/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
 
@@ -1114,11 +1126,15 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
+/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/opt/cuda/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
+
 /opt/cuda/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginConfig.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_history.cpp:
-
-/opt/cuda/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake:
 
@@ -1132,6 +1148,8 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
 
+/home/myungit/Documenti/pdfReader_C/cad_icons.cpp:
+
 /opt/cuda/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
 /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
@@ -1139,6 +1157,16 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QWebpPluginTargetsPrecheck.cmake:
 
 /opt/cuda/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
+/opt/cuda/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+
+/opt/cuda/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargetsPrecheck.cmake:
+
+/opt/cuda/lib/cmake/Qt6Gui/Qt6QTiffPluginTargetsPrecheck.cmake:
 
 /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
@@ -1151,24 +1179,6 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake:
 
 /opt/cuda/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6/QtFeature.cmake:
-
-/opt/cuda/lib/cmake/opencascade/OpenCASCADECompileDefinitionsAndFlags-release.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginTargets-relwithdebinfo.cmake:
-
-/home/myungit/Documenti/pdfReader_C/forgeCad2026.cpp:
-
-/opt/cuda/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
-
-/opt/cuda/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
 /home/myungit/Documenti/pdfReader_C/cad_history.h:
 
@@ -1378,8 +1388,6 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake:
 
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargetsPrecheck.cmake:
-
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargetsPrecheck.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake:
@@ -1509,5 +1517,3 @@ CMakeFiles/4.4.3/CMakeCUDACompiler.cmake:
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake:
 
 /opt/cuda/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
-
-/opt/cuda/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:

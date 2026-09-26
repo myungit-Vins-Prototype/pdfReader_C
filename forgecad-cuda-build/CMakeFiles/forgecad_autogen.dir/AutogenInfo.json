@@ -644,6 +644,12 @@
 			null
 		],
 		[
+			"/home/myungit/Documenti/pdfReader_C/cad_icons.h",
+			"MU",
+			"EWIEGA46WW/moc_cad_icons.cpp",
+			null
+		],
+		[
 			"/home/myungit/Documenti/pdfReader_C/cad_kernel.h",
 			"MU",
 			"EWIEGA46WW/moc_cad_kernel.cpp",
@@ -767,6 +773,7 @@
 		[ "/home/myungit/Documenti/pdfReader_C/cad_export.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_forge.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_history.cpp", "MU", null ],
+		[ "/home/myungit/Documenti/pdfReader_C/cad_icons.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_kernel.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp", "MU", null ],
 		[ "/home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp", "MU", null ],

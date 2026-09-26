@@ -55,6 +55,12 @@
 },
 {
   "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build",
+  "command": "/usr/bin/c++ -DFORGECAD_HAS_CUDA=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/forgecad_autogen/include -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtOpenGLWidgets -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -mno-direct-extern-access -o CMakeFiles/forgecad.dir/cad_icons.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_icons.cpp",
+  "file": "/home/myungit/Documenti/pdfReader_C/cad_icons.cpp",
+  "output": "CMakeFiles/forgecad.dir/cad_icons.cpp.o"
+},
+{
+  "directory": "/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build",
   "command": "/usr/bin/c++ -DFORGECAD_HAS_CUDA=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/myungit/Documenti/pdfReader_C/forgecad-cuda-build/forgecad_autogen/include -I/home/myungit/Documenti/pdfReader_C/kernel -isystem /opt/cuda/include/opencascade -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtOpenGLWidgets -isystem /usr/include/opencascade -g -std=gnu++17 -Wall -Wextra -Wpedantic -mno-direct-extern-access -o CMakeFiles/forgecad.dir/cad_history.cpp.o -c /home/myungit/Documenti/pdfReader_C/cad_history.cpp",
   "file": "/home/myungit/Documenti/pdfReader_C/cad_history.cpp",
   "output": "CMakeFiles/forgecad.dir/cad_history.cpp.o"

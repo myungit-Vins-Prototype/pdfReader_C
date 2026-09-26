@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/myungit/Documenti/pdfReader_C/cad_export.cpp" "CMakeFiles/forgecad.dir/cad_export.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_export.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_forge.cpp" "CMakeFiles/forgecad.dir/cad_forge.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_forge.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_history.cpp" "CMakeFiles/forgecad.dir/cad_history.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_history.cpp.o.d"
+  "/home/myungit/Documenti/pdfReader_C/cad_icons.cpp" "CMakeFiles/forgecad.dir/cad_icons.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_icons.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_kernel.cpp" "CMakeFiles/forgecad.dir/cad_kernel.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_kernel.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_kernel_lab.cpp" "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_kernel_lab.cpp.o.d"
   "/home/myungit/Documenti/pdfReader_C/cad_sketch_edit.cpp" "CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o" "gcc" "CMakeFiles/forgecad.dir/cad_sketch_edit.cpp.o.d"
